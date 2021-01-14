@@ -176,35 +176,52 @@ PEOPLE
 PRIEST
 
 #+LATEX: \selectlanguage{greek}
-Τοῦ Κυρίου δεηθῶμεν.
-
-#+HTML: /(Κύριε, ἐλέησον.)/ \\
-#+LATEX: \textem{(Κύριε, ἐλέησον.)} \\
+#+LATEX: Τοῦ Κυρίου δεηθῶμεν. \\[1em]
+#+LATEX: \emph{(Κύριε, ἐλέησον.)} \\
 #+LATEX: \selectlanguage{english}
-/(Ky - ri - e, - 'le - i – son)/
+#+LATEX: \emph{(Ky - ri - e, - 'le - i – son)} \\[1em]
+#+HTML: <p>Τοῦ Κυρίου δεηθῶμεν.</p>
+#+HTML: <p><i>(Κύριε, ἐλέησον.)</i><br/>
+#+HTML: <i>(Ky - ri - e, - 'le - i – son)</i></p>
 
 #+LATEX: \selectlanguage{greek}
-Ὅτι Ἅγιος εἶ ὁ Θεὸς ἡμῶν, καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ Ἁγίῳ Πνεύματι, νῦν καὶ ἀεί καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.
-
-#+HTML: /(Ἀμήν.)/ \\
+#+LATEX: Ὅτι Ἅγιος εἶ ὁ Θεὸς ἡμῶν, καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ Ἁγίῳ Πνεύματι, νῦν καὶ ἀεί καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων. \\[1em]
 #+LATEX: \emph{(Ἀμήν.)} \\
 #+LATEX: \selectlanguage{english}
-/(A-min)/
+#+LATEX: \emph{(A-min.)} \\[1em]
+#+HTML: <p>Ὅτι Ἅγιος εἶ ὁ Θεὸς ἡμῶν, καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ Ἁγίῳ Πνεύματι, νῦν καὶ ἀεί καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.</p>
+#+HTML: <p><i>(Ἀμήν.)</i><br/><i>(A-min.)</i></p>
 
 PEOPLE
 
 Holy God, Holy Mighty, Holy Immortal, have mercy on us.
 
 #+LATEX: \selectlanguage{greek}
-Ἅγιος ὁ Θεός, Ἅγιος ἰσχυρός, Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς. \\
+#+LATEX: Ἅγιος ὁ Θεός, Ἅγιος ἰσχυρός, Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς. \\
 #+LATEX: \selectlanguage{english}
-(A-yi - os o The-os, A-yi-os I-schi-ros, A-yi-os A - tha-na - tos, e - le-i-son i - mas.)
+#+LATEX: (A-yi - os o The-os, A-yi-os I-schi-ros, A-yi-os A - tha-na - tos, e - le-i-son i - mas.) \\[1em]
+#+HTML: <p>Ἅγιος ὁ Θεός, Ἅγιος ἰσχυρός, Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς.<br/>
+#+HTML: (A-yi - os o The-os, A-yi-os I-schi-ros, A-yi-os A - tha-na - tos, e - le-i-son i - mas.)</p>
 
 Holy God, Holy Mighty, Holy Immortal, have mercy on us.
 
-#+LATEX: \selectlanguage{greek}
-Δόξα Πατρί καί Υἱῷ καί Ἁγίῳ Πνεύματι· καί νῦν καί ἀεί καί εἰς τούς αἰῶνας τῶν αἰώνων. Ἀμήν.
-#+LATEX: \selectlanguage{english}
+Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.
+
+Holy Immortal, have mercy on us. 
+
+# #+LATEX: \selectlanguage{greek}
+# #+LATEX: Δόξα Πατρί καί Υἱῷ καί Ἁγίῳ Πνεύματι· καί νῦν καί ἀεί καί εἰς τούς αἰῶνας τῶν αἰώνων. Ἀμήν. \\
+# #+LATEX: \selectlanguage{english}
+# #+LATEX: (Dho-xa Pa-tri ke I-i-o ke A-yi-o Pnev-ma-ti, ke nin ke a-i ke is tus e-o-nas ton e-on-on. A-min) \\[1em]
+# #+HTML: <p>Δόξα Πατρί καί Υἱῷ καί Ἁγίῳ Πνεύματι· καί νῦν καί ἀεί καί εἰς τούς αἰῶνας τῶν αἰώνων. Ἀμήν.<br/>
+# #+HTML: (Dho-xa Pa-tri ke I-i-o ke A-yi-o Pnev-ma-ti, ke nin ke a-i ke is tus e-o-nas ton e-on-on. A-min)</p>
+
+# #+LATEX: \selectlanguage{greek}
+# #+LATEX: Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς. \\
+# #+LATEX: \selectlanguage{english}
+# #+LATEX: (A-yi-os A - tha-na - tos, e - le-i-son i - mas.) \\[1em]
+# #+HTML: <p>Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς.<br/>
+# #+HTML: (A-yi-os A - tha-na - tos, e - le-i-son i - mas.)</p>
 
 PRIEST
 
@@ -215,9 +232,11 @@ PRIEST
 PEOPLE
 
 #+LATEX: \selectlanguage{greek}
-Ἅγιος ὁ Θεός, Ἅγιος ἰσχυρός, Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς. \\
+#+LATEX: Ἅγιος ὁ Θεός, Ἅγιος ἰσχυρός, Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς. \\
 #+LATEX: \selectlanguage{english}
-(A-yi - osoThe-os, A-yi-osI-schi-ros A-yi-os A - tha-na - tos e - le-i-son i - mas.) 
+#+LATEX: (A-yi - os o The-os, A-yi-os I-schi-ros, A-yi-os A - tha-na - tos, e - le-i-son i - mas.) \\[1em]
+#+HTML: <p>Ἅγιος ὁ Θεός, Ἅγιος ἰσχυρός, Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς.<br/>
+#+HTML: (A-yi - os o The-os, A-yi-os I-schi-ros, A-yi-os A - tha-na - tos, e - le-i-son i - mas.)</p>
 
 * READINGS
 
