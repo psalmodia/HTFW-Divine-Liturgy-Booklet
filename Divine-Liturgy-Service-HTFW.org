@@ -1,4 +1,19 @@
 #+TITLE: The Divine Liturgy of Saint John Chrysostom
+#+OPTIONS: num:nil
+# \documentclass[12pt,letterpaper,twoside]{article}
+#+LaTeX_CLASS_OPTIONS: article
+#+LaTeX_CLASS_OPTIONS: [12pt,letterpaper,twoside]
+#+LATEX_HEADER: \usepackage{palatino}
+#+LATEX_HEADER: \textwidth=6.5truein
+#+LATEX_HEADER: \textheight=9.5truein
+#+LATEX_HEADER: \topmargin=-0.8truein
+#+LATEX_HEADER: \oddsidemargin=0truein
+#+LATEX_HEADER: \evensidemargin=0truein
+#+LATEX_HEADER: \parindent=0em
+#+LATEX_HEADER: \parskip=1em
+#+LATEX_HEADER: \usepackage[utf8]{inputenc}
+#+LATEX_HEADER: \usepackage[greek, english]{babel}
+#+LATEX_HEADER: \usepackage[LGR,T1]{fontenc}
 
 (For use at Holy Trinity Greek Orthodox parish, Fort Wayne, Indiana.)
 
@@ -8,7 +23,7 @@ PRIEST
 
 Blessed is the Kingdom of the Father and of the Son and of the Holy Spirit, now and forever and to the ages of ages.
 
-(Amen.)
+/(Amen.)/
 
 * THE LITANY OF PEACE
 
@@ -16,65 +31,65 @@ DEACON
 
 In peace, let us pray to the Lord.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 For the peace from above and for the salvation of our souls, let us pray to the Lord.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 For the peace of the whole world, for the stability of the holy churches of God, and for the unity of all, let us pray to the Lord.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 For this holy house and for those who enter it with faith, reverence, and the fear of God, let us pray to the Lord.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 For pious and Orthodox Christians, let us pray to the Lord.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 For (episcopal rank) (name), for the honorable presbyterate, for the diaconate in Christ, and for all the clergy and the people, let us pray to the Lord.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 For our country, for the president, and for all in public service, let us pray to the Lord.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 For this city, and for every city and land, and for the faithful who live in them, let us pray to the Lord.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 For favorable weather, for an abundance of the fruits of the earth, and for peaceful times, let us pray to the Lord.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 For those who travel by land, sea, and air, for the sick, the suffering, the captives and for their salvation, let us pray to the Lord.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 For our deliverance from all affliction, wrath, danger and distress, and from the peril of the coronavirus against us, let us pray to the Lord.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 Help us, save us, have mercy on us, and protect us, O God, by Your grace.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 Commemorating our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God.
 
-(To You, O Lord.)
+/(To You, O Lord.)/
 
 PRIEST
 
 For to You belong all glory, honor, and worship, to the Father and to the Son and to the Holy Spirit, now and forever and to the ages of ages.
 
-(Amen.)
+/(Amen.)/
 
 * FIRST ANTIPHON
 
-(Designated Psalm verses are intoned prior to the following refrain.)
+/(Designated Psalm verses are intoned prior to the following refrain.)/
 
 CHOIR
 
@@ -86,25 +101,25 @@ DEACON
 
 Again and again, in peace, let us pray to the Lord.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 Help us, save us, have mercy on us, and protect us, O God, by Your grace.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 Commemorating our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God.
 
-(To You, O Lord.)
+/(To You, O Lord.)/
 
 PRIEST
 
 For Yours is the dominion, and Yours is the kingdom and the power and the glory, of the Father and of the Son and of the Holy Spirit, now and forever and to the ages of ages.
 
-(Amen.)
+/(Amen.)/
 
 * SECOND ANTIPHON
 
-(Designated Psalm verses are intoned prior to the following refrain.)
+/(Designated Psalm verses are intoned prior to the following refrain.)/
 
 CHOIR
 
@@ -122,23 +137,145 @@ DEACON
 
 Again and again, in peace, let us pray to the Lord.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 Help us, save us, have mercy on us, and protect us, O God, by Your grace.
 
-(Lord, have mercy.)
+/(Lord, have mercy.)/
 
 Commemorating our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God.
 
-(To You, O Lord.)
+/(To You, O Lord.)/
 
 PRIEST
 
 For You, O God, are good and love mankind, and to You we offer glory, to the Father and to the Son and to the Holy Spirit, now and forever, and to the ages of ages.
 
-(Amen.) 
+/(Amen.)/
 
-* Antiphon III
+* THIRD ANTIPHON
 
-(While the hymn of the day is sung, the priest carrying the holy Gospel Book comes in procession before the Beautiful Gate of the Icon Screen. The priest blesses the entrance. He then raises the Holy Gospel Book and says:)
+/(While the hymn of the day is sung, the priest carrying the holy Gospel Book comes in procession before the Beautiful Gate of the Icon Screen. The priest blesses the entrance. He then raises the Holy Gospel Book and says:)/
+
+PRIEST
+
+Wisdom. Let us be attentive.
+
+PEOPLE
+
+#+LATEX: \selectlanguage{greek}
+Δεῦτε προσκυνήσωμεν καὶ προσπέσωμεν Χριστῷ. Σῶσον ἡμᾶς Υἱὲ Θεοῦ, ὁ ἀναστὰς ἐκ νεκρῶν, ψάλλοντάς σοι, Ἀλληλούϊα.
+#+LATEX: \selectlanguage{english}
+
+# Come, let us worship and bow down before Christ. Save us, O Son of God who	  	  did rise from the dead, we sing to You: Alleluia.
+
+/(The priest enters the Holy Altar. The hymn of the day is repeated, then the hymn of the church and other hymns of the day are sung.)/
+
+* TRISAGION HYMN
+
+PRIEST
+
+#+LATEX: \selectlanguage{greek}
+Τοῦ Κυρίου δεηθῶμεν.
+
+#+HTML: /(Κύριε, ἐλέησον.)/ \\
+#+LATEX: \textem{(Κύριε, ἐλέησον.)} \\
+#+LATEX: \selectlanguage{english}
+/(Ky - ri - e, - 'le - i – son)/
+
+#+LATEX: \selectlanguage{greek}
+Ὅτι Ἅγιος εἶ ὁ Θεὸς ἡμῶν, καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ Ἁγίῳ Πνεύματι, νῦν καὶ ἀεί καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.
+
+#+HTML: /(Ἀμήν.)/ \\
+#+LATEX: \emph{(Ἀμήν.)} \\
+#+LATEX: \selectlanguage{english}
+/(A-min)/
+
+PEOPLE
+
+Holy God, Holy Mighty, Holy Immortal, have mercy on us.
+
+#+LATEX: \selectlanguage{greek}
+Ἅγιος ὁ Θεός, Ἅγιος ἰσχυρός, Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς. \\
+#+LATEX: \selectlanguage{english}
+(A-yi - os o The-os, A-yi-os I-schi-ros, A-yi-os A - tha-na - tos, e - le-i-son i - mas.)
+
+Holy God, Holy Mighty, Holy Immortal, have mercy on us.
+
+#+LATEX: \selectlanguage{greek}
+Δόξα Πατρί καί Υἱῷ καί Ἁγίῳ Πνεύματι· καί νῦν καί ἀεί καί εἰς τούς αἰῶνας τῶν αἰώνων. Ἀμήν.
+#+LATEX: \selectlanguage{english}
+
+PRIEST
+
+#+LATEX: \selectlanguage{greek}
+Δύναμις.
+#+LATEX: \selectlanguage{english}
+
+PEOPLE
+
+#+LATEX: \selectlanguage{greek}
+Ἅγιος ὁ Θεός, Ἅγιος ἰσχυρός, Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς. \\
+#+LATEX: \selectlanguage{english}
+(A-yi - osoThe-os, A-yi-osI-schi-ros A-yi-os A - tha-na - tos e - le-i-son i - mas.) 
+
+* READINGS
+
+** THE EPISTLE
+
+PRIEST
+
+Let us be attentive.
+
+/(The Reader reads the verses from the Psalms.)/
+
+PRIEST
+
+Wisdom.
+
+READER
+
+The reading is from /(the name of the book of the New Testament from which the Apostolic reading is taken)/. 
+
+PRIEST
+
+Let us be attentive.
+
+/(The Reader reads the designated apostolic lesson of the day)/
+
+PRIEST
+
+Peace be with you.
+
+PEOPLE
+
+Alleluia. Alleluia. Alleluia.
+
+** THE HOLY GOSPEL
+
+PRIEST
+
+Wisdom. Arise. Let us hear the Holy Gospel. Peace be with you all.
+
+PEOPLE
+
+And with your spirit.
+
+PRIEST
+
+The reading is from the Holy Gospel according to /(Name)/.
+
+PEOPLE
+
+Glory to You, O Lord, glory to You.
+
+PRIEST
+
+Let us be attentive!
+
+/(The priest reads the designated lesson from one of the four Holy Gospels.)/
+
+PEOPLE
+
+Glory to You, O Lord, glory to You.
 
