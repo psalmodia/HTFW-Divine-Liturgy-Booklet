@@ -96,6 +96,12 @@ CHOIR
 
 Through the intercessions of the Theotokos, Savior, save us.
 
+#+LATEX: \selectlanguage{greek}
+#+LATEX: Ταῖς πρεσβείαις τῆς Θεοτόκου, Σῶτερ, σῶσον ἡμᾶς. \\
+#+LATEX: \selectlanguage{greek}
+#+LATEX: \emph{(Tes pres- vi- es tis The- o- to- ku, So- ter, so- son i- mas.)}
+#+HTML: <p>Ταῖς πρεσβείαις τῆς Θεοτόκου, Σῶτερ, σῶσον ἡμᾶς.<br/><i>(Tes pres- vi- es tis The- o- to- ku, So- ter, so- son i- mas.)</i></p>
+
 * THE SMALL LITANY
 
 # DEACON
@@ -126,6 +132,14 @@ For Yours is the dominion, and Yours is the kingdom and the power and the glory,
 CHOIR
 
 Save us, O Son of God, risen from the dead. We sing to You, Alleluia.
+
+#+LATEX: \selectlanguage{greek}
+#+LATEX: Σῶσον ἡμᾶς Υἱὲ Θεοῦ, ὁ ἀναστὰς ἐκ νεκρῶν, ψάλλοντάς σοι, Ἀλληλούϊα. \\
+#+LATEX: \selectlanguage{greek}
+#+LATEX: \emph{(So- son i- mas i- e The- u o a- na- stas ek- ne- kron psal- lon- das Si, Al- li- lu- i- a.)}
+#+HTML: <p>Σῶσον ἡμᾶς Υἱὲ Θεοῦ, ὁ ἀναστὰς ἐκ νεκρῶν, ψάλλοντάς σοι, Ἀλληλούϊα.<br/><i>(So- son i- mas i- e The- u o a- na- stas ek- ne- kron psal- lon- das Si, Al- li- lu- i- a.)</i></p>
+
+CHOIR
 
 Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.
 
@@ -318,7 +332,7 @@ PEOPLE
 Οἱ τὰ Χερουβεὶμ μυστικῶς εἰκονίζοντες, καὶ τῇ ζωοποιῷ Τριάδι Τριάδι τὸν τρισάγιον ὕμνον προσᾴδοντες, πᾶσαν τὴν βιοτικὴν ἀποθώμεθα πᾶσαν μέριμναν, ὡς τὸν Βασιλέα τῶν ὅλων ὑποδεξόμενοι.
 # #+LATEX: \selectlanguage{english}
 
-I - ta che - rou - vim, my-sti - kos i-ko-ni- zon-des, ke ti zo-o-pi - o Tri-a-thi Tri-a-a-a-  thi-i-ton Trisa-gi-on i-mnon-pro-sa-thon-tes pa-san-tin vi-o-ti-kin a-po-tho-me-Tha pa-san me-ti-mna-an os ton va-si-le-a ton o-lon i-po-tho-xo-me-ni.
+/(I - ta che - rou - vim, my-sti - kos i-ko-ni- zon-des, ke ti zo-o-pi - o Tri-a-thi Tri-a-a-a-  thi-i-ton Trisa-gi-on i-mnon-pro-sa-thon-tes pa-san-tin vi-o-ti-kin a-po-tho-me-Tha pa-san me-ti-mna-an os ton va-si-le-a ton o-lon i-po-tho-xo-me-ni.)/
 
 # Old Green Book:
 We who mystically represent the Cherubim, represent the Cherubim and we sing, we sing unto the life giving Trinity, the Trinity, the Trinity, Trinity, the Trinity the thrice holy hymn, we sing the thrice holy hymn. Let us lay aside the cares, all the cares of this life, all the cares of this life that we may receive the King, receive the King of all.
@@ -432,31 +446,63 @@ The doors! The doors! In wisdom, let us be attentive!
 
 PEOPLE
 
-Πιστεύω εἰς ἕνα Θεόν, Πατέρα, Παντοκράτορα, ποιητὴν οὐρανοῦ καὶ γῆς, ὁρατῶν τε πάντων καὶ ἀοράτων. \\
-Καὶ εἰς ἕνα Κύριον Ἰησοῦν Χριστόν, τὸν Υἱὸν τοῦ Θεοῦ τὸν μονογενῆ, τὸν ἐκ τοῦ Πατρὸς γεννηθέντα πρὸ πάντων τῶν αἰώνων· \\
-φῶς ἐκ φωτός, Θεὸν ἀληθινὸν ἐκ Θεοῦ ἀληθινοῦ, γεννηθέντα οὐ ποιηθέντα, ὁμοούσιον τῷ Πατρί, δι' οὗ τὰ πάντα ἐγένετο. \\
-Τὸν δι' ἡμᾶς τοὺς ἀνθρώπους καὶ διὰ τὴν ἡμετέραν σωτηρίαν κατελθόντα ἐκ τῶν οὐρανῶν καὶ σαρκωθέντα ἐκ Πνεύματος Ἁγίου καὶ Μαρίας τῆς Παρθένου καὶ ἐνανθρωπήσαντα. \\
-Σταυρωθέντα τε ὑπὲρ ἡμῶν ἐπὶ Ποντίου Πιλάτου, καὶ παθόντα καὶ ταφέντα. \\
-Καὶ ἀναστάντα τῇ τρίτῃ ἡμέρα κατὰ τὰς Γραφάς. \\
-Καὶ ἀνελθόντα εἰς τοὺς οὐρανοὺς καὶ καθεζόμενον ἐκ δεξιῶν τοῦ Πατρός. \\
-Καὶ πάλιν ἐρχόμενον μετὰ δόξης κρῖναι ζῶντας καὶ νεκρούς, οὗ τῆς βασιλείας οὐκ ἔσται τέλος. \\
-Καὶ εἰς τὸ Πνεῦμα τὸ Ἅγιον, τὸ Κύριον, τὸ ζωοποιόν, τὸ ἐκ τοῦ Πατρὸς ἐκπορευόμενον, \\
-τὸ σὺν Πατρὶ καὶ Υἱῷ συμπροσκυνούμενον καὶ συνδοξαζόμενον, τὸ λαλῆσαν διὰ τῶν προφητῶν. \\
-Εἰς μίαν, Ἁγίαν, Καθολικὴν καὶ Ἀποστολικὴν Ἐκκλησίαν. Ὁμολογῶ ἓν βάπτισμα εἰς ἄφεσιν ἁμαρτιῶν. \\
-Προσδοκῶ ἀνάστασιν νεκρῶν. Καὶ ζωὴν τοῦ μέλλοντος αἰῶνος. Ἀμήν.
+/Greek/
 
-I believe in one God, Father Almighty, Creator of heaven and earth, and of all things visible and invisible. \\
-And in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all ages; \\
-Light of Light, true God of true God, begotten, not created, of one essence with the Father through Whom all things were made. \\
-Who for us men and for our salvation came down from heaven and was incarnate of the Holy Spirit and the Virgin Mary and became man. \\
-He was crucified for us under Pontius Pilate, and suffered and was buried; \\
-And He rose on the third day, according to the Scriptures. \\
-He ascended into heaven and is seated at the right hand of the Father; \\
-And He will come again with glory to judge the living and dead. His kingdom shall have no end. \\
-And in the Holy Spirit, the Lord, the Creator of life, Who proceeds from the Father, \\
-Who together with the Father and the Son is worshipped and glorified, Who spoke through the prophets. \\
-In one, holy, catholic, and apostolic Church. I confess one baptism for the forgiveness of sins. \\
-I look for the resurrection of the dead, and the life of the age to come. Amen.
+#+LATEX: \selectlanguage{greek}
+#+LATEX: Πιστεύω εἰς ἕνα Θεόν, Πατέρα, Παντοκράτορα, ποιητὴν οὐρανοῦ καὶ γῆς, ὁρατῶν τε πάντων καὶ ἀοράτων. \\[0.5em]
+#+LATEX: Καὶ εἰς ἕνα Κύριον Ἰησοῦν Χριστόν, τὸν Υἱὸν τοῦ Θεοῦ τὸν μονογενῆ, τὸν ἐκ τοῦ Πατρὸς γεννηθέντα πρὸ πάντων τῶν αἰώνων· \\[0.5em]
+#+LATEX: φῶς ἐκ φωτός, Θεὸν ἀληθινὸν ἐκ Θεοῦ ἀληθινοῦ, γεννηθέντα οὐ ποιηθέντα, ὁμοούσιον τῷ Πατρί, δι' οὗ τὰ πάντα ἐγένετο. \\[0.5em]
+#+LATEX: Τὸν δι' ἡμᾶς τοὺς ἀνθρώπους καὶ διὰ τὴν ἡμετέραν σωτηρίαν κατελθόντα ἐκ τῶν οὐρανῶν καὶ σαρκωθέντα ἐκ Πνεύματος Ἁγίου καὶ Μαρίας τῆς Παρθένου καὶ ἐνανθρωπήσαντα. \\[0.5em]
+#+LATEX: Σταυρωθέντα τε ὑπὲρ ἡμῶν ἐπὶ Ποντίου Πιλάτου, καὶ παθόντα καὶ ταφέντα. \\[0.5em]
+#+LATEX: Καὶ ἀναστάντα τῇ τρίτῃ ἡμέρα κατὰ τὰς Γραφάς. \\[0.5em]
+#+LATEX: Καὶ ἀνελθόντα εἰς τοὺς οὐρανοὺς καὶ καθεζόμενον ἐκ δεξιῶν τοῦ Πατρός. \\[0.5em]
+#+LATEX: Καὶ πάλιν ἐρχόμενον μετὰ δόξης κρῖναι ζῶντας καὶ νεκρούς, οὗ τῆς βασιλείας οὐκ ἔσται τέλος. \\[0.5em]
+#+LATEX: Καὶ εἰς τὸ Πνεῦμα τὸ Ἅγιον, τὸ Κύριον, τὸ ζωοποιόν, τὸ ἐκ τοῦ Πατρὸς ἐκπορευόμενον, \\[0.5em]
+#+LATEX: τὸ σὺν Πατρὶ καὶ Υἱῷ συμπροσκυνούμενον καὶ συνδοξαζόμενον, τὸ λαλῆσαν διὰ τῶν προφητῶν. \\[0.5em]
+#+LATEX: Εἰς μίαν, Ἁγίαν, Καθολικὴν καὶ Ἀποστολικὴν Ἐκκλησίαν. Ὁμολογῶ ἓν βάπτισμα εἰς ἄφεσιν ἁμαρτιῶν. \\[0.5em]
+#+LATEX: Προσδοκῶ ἀνάστασιν νεκρῶν. Καὶ ζωὴν τοῦ μέλλοντος αἰῶνος. Ἀμήν.
+#+LATEX: \selectlanguage{english}
+
+#+HTML: <p>Πιστεύω εἰς ἕνα Θεόν, Πατέρα, Παντοκράτορα, ποιητὴν οὐρανοῦ καὶ γῆς, ὁρατῶν τε πάντων καὶ ἀοράτων. <br style="margin-bottom:0.3em" />
+#+HTML: Καὶ εἰς ἕνα Κύριον Ἰησοῦν Χριστόν, τὸν Υἱὸν τοῦ Θεοῦ τὸν μονογενῆ, τὸν ἐκ τοῦ Πατρὸς γεννηθέντα πρὸ πάντων τῶν αἰώνων· <br style="margin-bottom:0.3em" />
+#+HTML: φῶς ἐκ φωτός, Θεὸν ἀληθινὸν ἐκ Θεοῦ ἀληθινοῦ, γεννηθέντα οὐ ποιηθέντα, ὁμοούσιον τῷ Πατρί, δι' οὗ τὰ πάντα ἐγένετο. <br style="margin-bottom:0.3em" />
+#+HTML: Τὸν δι' ἡμᾶς τοὺς ἀνθρώπους καὶ διὰ τὴν ἡμετέραν σωτηρίαν κατελθόντα ἐκ τῶν οὐρανῶν καὶ σαρκωθέντα ἐκ Πνεύματος Ἁγίου καὶ Μαρίας τῆς Παρθένου καὶ ἐνανθρωπήσαντα. <br style="margin-bottom:0.3em" />
+#+HTML: Σταυρωθέντα τε ὑπὲρ ἡμῶν ἐπὶ Ποντίου Πιλάτου, καὶ παθόντα καὶ ταφέντα. <br style="margin-bottom:0.3em" />
+#+HTML: Καὶ ἀναστάντα τῇ τρίτῃ ἡμέρα κατὰ τὰς Γραφάς. <br style="margin-bottom:0.3em" />
+#+HTML: Καὶ ἀνελθόντα εἰς τοὺς οὐρανοὺς καὶ καθεζόμενον ἐκ δεξιῶν τοῦ Πατρός. <br style="margin-bottom:0.3em" />
+#+HTML: Καὶ πάλιν ἐρχόμενον μετὰ δόξης κρῖναι ζῶντας καὶ νεκρούς, οὗ τῆς βασιλείας οὐκ ἔσται τέλος. <br style="margin-bottom:0.3em" />
+#+HTML: Καὶ εἰς τὸ Πνεῦμα τὸ Ἅγιον, τὸ Κύριον, τὸ ζωοποιόν, τὸ ἐκ τοῦ Πατρὸς ἐκπορευόμενον, <br style="margin-bottom:0.3em" />
+#+HTML: τὸ σὺν Πατρὶ καὶ Υἱῷ συμπροσκυνούμενον καὶ συνδοξαζόμενον, τὸ λαλῆσαν διὰ τῶν προφητῶν. <br style="margin-bottom:0.3em" />
+#+HTML: Εἰς μίαν, Ἁγίαν, Καθολικὴν καὶ Ἀποστολικὴν Ἐκκλησίαν. Ὁμολογῶ ἓν βάπτισμα εἰς ἄφεσιν ἁμαρτιῶν. <br style="margin-bottom:0.3em" />
+#+HTML: Προσδοκῶ ἀνάστασιν νεκρῶν. Καὶ ζωὴν τοῦ μέλλοντος αἰῶνος. Ἀμήν.</p>
+
+/English/
+
+#+LATEX: I believe in one God, Father Almighty, Creator of heaven and earth, and of all things visible and invisible. \\[0.5em]
+#+LATEX: And in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all ages; \\[0.5em]
+#+LATEX: Light of Light, true God of true God, begotten, not created, of one essence with the Father through Whom all things were made. \\[0.5em]
+#+LATEX: Who for us men and for our salvation came down from heaven and was incarnate of the Holy Spirit and the Virgin Mary and became man. \\[0.5em]
+#+LATEX: He was crucified for us under Pontius Pilate, and suffered and was buried; \\[0.5em]
+#+LATEX: And He rose on the third day, according to the Scriptures. \\[0.5em]
+#+LATEX: He ascended into heaven and is seated at the right hand of the Father; \\[0.5em]
+#+LATEX: And He will come again with glory to judge the living and dead. His kingdom shall have no end. \\[0.5em]
+#+LATEX: And in the Holy Spirit, the Lord, the Creator of life, Who proceeds from the Father, \\[0.5em]
+#+LATEX: Who together with the Father and the Son is worshipped and glorified, Who spoke through the prophets. \\[0.5em]
+#+LATEX: In one, holy, catholic, and apostolic Church. I confess one baptism for the forgiveness of sins. \\[0.5em]
+#+LATEX: I look for the resurrection of the dead, and the life of the age to come. Amen.
+
+#+HTML: <p>I believe in one God, Father Almighty, Creator of heaven and earth, and of all things visible and invisible. <br style="margin-bottom:0.3em" />
+#+HTML: And in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all ages; <br style="margin-bottom:0.3em" />
+#+HTML: Light of Light, true God of true God, begotten, not created, of one essence with the Father through Whom all things were made. <br style="margin-bottom:0.3em" />
+#+HTML: Who for us men and for our salvation came down from heaven and was incarnate of the Holy Spirit and the Virgin Mary and became man. <br style="margin-bottom:0.3em" />
+#+HTML: He was crucified for us under Pontius Pilate, and suffered and was buried; <br style="margin-bottom:0.3em" />
+#+HTML: And He rose on the third day, according to the Scriptures. <br style="margin-bottom:0.3em" />
+#+HTML: He ascended into heaven and is seated at the right hand of the Father; <br style="margin-bottom:0.3em" />
+#+HTML: And He will come again with glory to judge the living and dead. His kingdom shall have no end. <br style="margin-bottom:0.3em" />
+#+HTML: And in the Holy Spirit, the Lord, the Creator of life, Who proceeds from the Father, <br style="margin-bottom:0.3em" />
+#+HTML: Who together with the Father and the Son is worshipped and glorified, Who spoke through the prophets. <br style="margin-bottom:0.3em" />
+#+HTML: In one, holy, catholic, and apostolic Church. I confess one baptism for the forgiveness of sins. <br style="margin-bottom:0.3em" />
+#+HTML: I look for the resurrection of the dead, and the life of the age to come. Amen.</p>
 
 * THE HOLY ANAPHORA
 
@@ -505,9 +551,11 @@ PEOPLE
 # Old Green Book:
 Holy, holy, holy, Lord of angelic hosts, heaven, heaven and earth are filled with Your glory. Hosanna in the highest. O Blessed is He who comes in the Lord’s name. In the name of the Lord. Hosanna in the highest.
 
-Ἅγιος, ἅγιος, ἅγιος Κύριος Σαβαώθ· πλήρης ὁ οὐρανὸς καὶ ἡ γῆ τῆς δόξης σου, ὡσαννὰ ἐν τοῖς ὑψίστοις. Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι Κυρίου. Ὡσαννὰ ὁ ἐν τοῖς ὑψίστοις.
-
-(A-yi-os, A-yi - os, A-yi-os, Ky - ri-os Sa-va-oth, pli - ris o ou-ra-nos, ke i yi tis dho-xis Sou. O-san - na en tis i - psi - stis. Ev-lo-yi - me-nos o er- ho-me-nos eno-no-ma-ti Ky-ri-ou, O-san-na o en tis i-psi-stis.)
+#+LATEX: \selectlanguage{greek}
+#+LATEX: Ἅγιος, ἅγιος, ἅγιος Κύριος Σαβαώθ· πλήρης ὁ οὐρανὸς καὶ ἡ γῆ τῆς δόξης σου, ὡσαννὰ ἐν τοῖς ὑψίστοις. Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι Κυρίου. Ὡσαννὰ ὁ ἐν τοῖς ὑψίστοις. \\
+#+LATEX: \selectlanguage{english}
+#+LATEX: \emph{(A-yi-os, A-yi - os, A-yi-os, Ky - ri-os Sa-va-oth, pli - ris o ou-ra-nos, ke i yi tis dho-xis Sou. O-san - na en tis i - psi - stis. Ev-lo-yi - me-nos o er- ho-me-nos eno-no-ma-ti Ky-ri-ou, O-san-na o en tis i-psi-stis.)}
+#+HTML: <p>Ἅγιος, ἅγιος, ἅγιος Κύριος Σαβαώθ· πλήρης ὁ οὐρανὸς καὶ ἡ γῆ τῆς δόξης σου, ὡσαννὰ ἐν τοῖς ὑψίστοις. Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι Κυρίου. Ὡσαννὰ ὁ ἐν τοῖς ὑψίστοις.<br/><i>(A-yi-os, A-yi - os, A-yi-os, Ky - ri-os Sa-va-oth, pli - ris o ou-ra-nos, ke i yi tis dho-xis Sou. O-san - na en tis i - psi - stis. Ev-lo-yi - me-nos o er- ho-me-nos eno-no-ma-ti Ky-ri-ou, O-san-na o en tis i-psi-stis.)</i></p>
 
 PRIEST
 
@@ -539,7 +587,9 @@ We offer You Your own of Your own in behalf of all and for all.
 
 PEOPLE
 
+#+LATEX: \selectlanguage{greek}
 Σὲ ὑμνοῦμεν, σὲ εὐλογοῦμεν, σοὶ εὐχαριστοῦμεν, Κύριε, καὶ δεόμεθά σου, ὁ Θεὸς ἡμῶν.
+#+LATEX: \selectlanguage{english}
 
 We praise, we praise you and we bless, we bless You. Thanks we give to You, to You O Lord. Fervently we pray to You, to You, our God.
 
@@ -664,6 +714,7 @@ PEOPLE
 
 /Greek/
 
+#+LATEX: \selectlanguage{greek}
 Πάτερ ἡμῶν, ὁ ἐν τοῖς οὐρανοῖς· \\
 ἁγιασθήτω τὸ ὄνομά σου, \\
 ἐλθέτω ἡ βασιλεία σου, \\
@@ -674,6 +725,7 @@ PEOPLE
 ὡς καὶ ἡμεῖς ἀφίεμεν τοῖς ὀφειλέταις ἡμῶν. \\
 Καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν, \\
 ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ.
+#+LATEX: \selectlanguage{english}
 
 Pater hēmōn, (h)o en tois ouranois \\
 (h)agiasthētō to onoma sou; \\
@@ -788,15 +840,13 @@ Amen.
 
 * HOLY COMMUNION
 
-PRIEST
+PRIEST (read)
 
 Lord Jesus Christ, our God, hear us from Your holy dwelling place and from the glorious throne of Your kingdom. You are enthroned on high with the Father and are also invisibly present among us. Come and sanctify us, and let Your pure Body and precious Blood be given to us by Your mighty hand and through us to all Your people.
 
-PRIEST
+PRIEST (intoned)
 
 Let us be attentive.
-
-PRIEST
 
 The holy Gifts for the holy people of God.
 
@@ -804,9 +854,10 @@ PEOPLE
 
 One is Holy, one is Lord, Jesus Christ, for the glory of God the Father. Amen.
 
-Εἷς Ἅγιος, εἷς Κύριος, Ἰησοῦς Χριστός, εἰς δόξαν Θεοῦ Πατρός. Ἀμήν.
-
-Is A-yi - os, is Ky-ri - os, I-i - sous Chri- - stos is dho - xan The - ou Pa - tros. A - min.
+#+LATEX: \selectlanguage{greek}
+Εἷς Ἅγιος, εἷς Κύριος, Ἰησοῦς Χριστός, εἰς δόξαν Θεοῦ Πατρός. Ἀμήν. \\
+#+LATEX: \selectlanguage{english}
+(Is A-yi - os, is Ky-ri - os, I-i - sous Chri- - stos is dho - xan The - ou Pa - tros. A - min.)
 
 PEOPLE
 
@@ -828,23 +879,23 @@ PEOPLE
 
 Praise, praise the Lord from the heavens; praise Him; praise Him in the highest, the highest.
 
-Αἰνεῖτε τὸν Κύριον ἐκ τῶν οὐρανῶν. Αἰνεῖτε αὐτὸν ἐν τοῖς ὑψίστοις. Ἀλληλούϊα. Ἀλληλούϊα. Ἀλληλούϊα
-
-E - ni - te ton Ky - ri - on ek ton ou-ra - non, e- -  ni - te af - ton en tis i - psi - stis. Al-li-	lou-i - a. Al-li-lou-i - a. Al-li - lou - i - a.
-
- * * *
+#+LATEX: \selectlanguage{greek}
+#+LATEX: Αἰνεῖτε τὸν Κύριον ἐκ τῶν οὐρανῶν. Αἰνεῖτε αὐτὸν ἐν τοῖς ὑψίστοις. Ἀλληλούϊα. Ἀλληλούϊα. Ἀλληλούϊα \\
+#+LATEX: \selectlanguage{english}
+#+LATEX: \emph{(E - ni - te ton Ky - ri - on ek ton ou-ra - non, e- -  ni - te af - ton en tis i - psi - stis. Al-li- lou-i - a. Al-li-lou-i - a. Al-li - lou - i - a.)}
+#+HTML: <p>Αἰνεῖτε τὸν Κύριον ἐκ τῶν οὐρανῶν. Αἰνεῖτε αὐτὸν ἐν τοῖς ὑψίστοις. Ἀλληλούϊα. Ἀλληλούϊα. Ἀλληλούϊα<br/><i>(E - ni - te ton Ky - ri - on ek ton ou-ra - non, e- -  ni - te af - ton en tis i - psi - stis. Al-li- lou-i - a. Al-li-lou-i - a. Al-li - lou - i - a.)</i></p>
 
 /(The Priest partakes of the body and the blood of the Lord and he prepares the Holy Communion for the people)/
 
- * * *
-
-(He takes the holy Cup, comes to the Royal Doors, raises it and says:)
+/(He takes the holy Cup, comes to the Royal Doors, raises it and says:)/
 
 PRIEST
 
-Μετὰ φόβου Θεοῦ, πίστεως καὶ ἀγάπης προσέλθετε.
-
-Approach with fear of God, with faith and with love.
+#+LATEX: \selectlanguage{greek}
+#+LATEX: Μετὰ φόβου Θεοῦ, πίστεως καὶ ἀγάπης προσέλθετε.
+#+LATEX: \selectlanguage{english}
+#+LATEX: Approach with fear of God, with faith and with love.
+#+HTML: <p>Μετὰ φόβου Θεοῦ, πίστεως καὶ ἀγάπης προσέλθετε. Approach with fear of God, with faith and with love.</p>
 
 /(Those prepared come forth with reverence to receive Holy Communion, singing the communion hymn.)/
 
@@ -858,9 +909,11 @@ PEOPLE
 
 We have seen the light, the true light and have received the heavenly Spirit; we now have found the true faith, by our worshiping the undivided Trinity, Who has saved, saved us.
 
-Εἴδομεν τὸ φῶς τὸ ἀληθινόν, ἐλάβομεν Πνεῦμα ἐπουράνιον, εὕρομεν πίστιν ἀληθῆ, ἀδιαίρετον Τριάδα προσκυνοῦντες, αὕτη γὰρ ἡμᾶς ἔσωσεν.
-
-I-dho-men to fos to a - li-thi - non e - la-vo-men Pnev-ma e-pou - ra-ni-on, ev-ro-men pi-	stin a-li - thi a-dhi - e-re-ton Tri - a-da pro-ski- noon - des. Af-ti ghar i - mas e - so - sen.
+#+LATEX: \selectlanguage{greek}
+#+LATEX: Εἴδομεν τὸ φῶς τὸ ἀληθινόν, ἐλάβομεν Πνεῦμα ἐπουράνιον, εὕρομεν πίστιν ἀληθῆ, ἀδιαίρετον Τριάδα προσκυνοῦντες, αὕτη γὰρ ἡμᾶς ἔσωσεν. \\
+#+LATEX: \selectlanguage{english}
+#+LATEX: \emph{(I-dho-men to fos to a - li-thi - non e - la-vo-men Pnev-ma e-pou - ra-ni-on, ev-ro-men pi-	stin a-li - thi a-dhi - e-re-ton Tri - a-da pro-ski- noon - des. Af-ti ghar i - mas e - so - sen.)}
+#+HTML: <p>Εἴδομεν τὸ φῶς τὸ ἀληθινόν, ἐλάβομεν Πνεῦμα ἐπουράνιον, εὕρομεν πίστιν ἀληθῆ, ἀδιαίρετον Τριάδα προσκυνοῦντες, αὕτη γὰρ ἡμᾶς ἔσωσεν.<br/><i>(I-dho-men to fos to a - li-thi - non e - la-vo-men Pnev-ma e-pou - ra-ni-on, ev-ro-men pi-	stin a-li - thi a-dhi - e-re-ton Tri - a-da pro-ski- noon - des. Af-ti ghar i - mas e - so - sen.)</i></p>
 
 PRIEST
 
@@ -873,7 +926,6 @@ Amen.
 PEOPLE
 
 Let our mouths be filled with Your praise, O Lord, that we may sing of Your glory. You have made us worthy to partake of Your holy mysteries. Keep us in Your holiness, that all the day long we may meditate upon Your righteousness. Alleluia. Alleluia. Alleluia.
-
 
 PRIEST
 
@@ -909,3 +961,70 @@ Amen.
 
 
 * THE DISMISSAL
+
+PRIEST
+
+Let us go forth in peace. Let us pray to the Lord. 
+
+PEOPLE
+
+Lord, have mercy.
+
+PRIEST
+
+Lord, bless those who praise You and sanctify those who trust in You. Save Your people and bless Your inheritance. Protect the whole body of Your Church. Sanctify those who love the beauty of Your house. Glorify them in return by Your divine power, and do not forsake us who hope in You. Grant peace to Your world, to Your churches, to the clergy, to those in public service, to the armed forces and to all Your people. For every good and perfect gift is from above, coming from You, the Father of lights. To You we give glory, thanksgiving and worship, to the Father and the Son and the Holy Spirit, now and forever and to the ages of ages.
+
+PEOPLE
+
+Amen.
+
+#+LATEX: \selectlanguage{greek}
+#+LATEX: Εἴη τὸ ὄνομα Κυρίου εὐλογημένον ἀπὸ τοῦ νῦν καὶ ἕως τοῦ αἰῶνος. \\
+#+LATEX: \selectlanguage{english}
+#+LATEX: I-i to o-no-ma Ky - ri - ou ev-lo-yi - me-non a - po tou nin, ke e-os tou e - o-nos.
+#+HTML: <p>Εἴη τὸ ὄνομα Κυρίου εὐλογημένον ἀπὸ τοῦ νῦν καὶ ἕως τοῦ αἰῶνος.<br/><i>(I-i to o-no-ma Ky - ri - ou ev-lo-yi - me-non a - po tou nin, ke e-os tou e - o-nos.)</i></p>
+
+Blessed be the name of the Lord, from this time forth, forever and forever.
+
+#+LATEX: \selectlanguage{greek}
+#+LATEX: Τὸ ὄνομα Κυρίου εὐλογημένον ἀπὸ τοῦ νῦν καὶ ἕως τοῦ αἰῶνος. \\
+#+LATEX: \selectlanguage{english}
+#+LATEX: \emph{(To o-no-ma Ky - ri - ou ev-lo-yi - me-non a - po tou nin, ke e-os tou e - o-nos.)}
+#+HTML: <p>Τὸ ὄνομα Κυρίου εὐλογημένον ἀπὸ τοῦ νῦν καὶ ἕως τοῦ αἰῶνος..<br/><i>(To o-no-ma Ky - ri - ou ev-lo-yi - me-non a - po tou nin, ke e-os tou e - o-nos.)</i></p>
+
+PRIEST
+
+Let us pray to the Lord.
+
+PEOPLE
+
+Lord, have mercy. Lord, have mercy. Lord, have mercy. Father give the blessing.
+
+PRIEST
+
+May the blessing of the Lord and His mercy come upon you through His divine 	grace and love always, now and forever and to the ages of ages.
+
+PEOPLE
+
+Amen.
+
+PRIEST
+
+Glory to You, O Christ, our hope, glory to you.
+
+May Christ our true God (who is risen from the dead), as a good, loving and merciful God, have mercy upon us and save us, through the intercessions of His most pure and holy Mother; the power of the precious and life giving Cross; the protection of the honorable, bodiless powers of heaven, the supplications of the honorable, glorious prophet and forerunner John the Baptist; the holy, glorious and praiseworthy apostles; the holy, glorious and triumphant martyrs; our holy and God-bearing Fathers; the holy and righteous ancestors Joachim and Anna; Saint (of the day) whose memory we commemorate today, and all the saints.
+PEOPLE
+
+Amen.
+
+PEOPLE
+
+*(softly)* Unto the one who blesses us and sanctifies us with God’s grace, Lord 	keep him in Your care, many years unto him.
+
+PRIEST
+
+Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy 	on us and save us. 
+
+PEOPLE
+
+Amen.
