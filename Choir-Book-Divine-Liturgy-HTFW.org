@@ -44,6 +44,30 @@ scoreTitleMarkup=##f
 }\addlyrics{A- men}
 #+end_src
 
+#+begin_src lilypond :exports none :results none :file images/LHM00.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 3/4
+  g4( fis) e
+  \time 5/4
+  g4 g1
+}\addlyrics{Lord, have mer- cy}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/TYOL00.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 2/4
+  g2
+  \time 4/4
+  a2 a | g1
+}\addlyrics{To You, O Lord}
+#+end_src
+
 (For use at Holy Trinity Greek Orthodox parish, Fort Wayne, Indiana.)
 
 THE DIVINE LITURGY OF ST. JOHN CHRYSOSTOM
@@ -61,61 +85,61 @@ PRIEST
 
 In peace, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 For the peace from above and for the salvation of our souls, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 For the peace of the whole world, for the stability of the holy churches of God, and for the unity of all, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 For this holy house and for those who enter it with faith, reverence, and the fear of God, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 For pious and Orthodox Christians, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 For (episcopal rank) (name), for the honorable presbyterate, for the diaconate in Christ, and for all the clergy and the people, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 For our country, for the president, and for all in public service, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 For this city, and for every city and land, and for the faithful who live in them, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 For favorable weather, for an abundance of the fruits of the earth, and for peaceful times, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 For those who travel by land, sea, and air, for the sick, the suffering, the captives and for their salvation, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 For our deliverance from all affliction, wrath, danger and distress, and from the peril of the coronavirus against us, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 Help us, save us, have mercy on us, and protect us, O God, by Your grace.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 Commemorating our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God.
 
-/(To You, O Lord.)/
+[[./images/TYOL00.png]]
 
 PRIEST
 
 For to You belong all glory, honor, and worship, to the Father and to the Son and to the Holy Spirit, now and forever and to the ages of ages.
 
-/(Amen.)/
+[[./images/Amen.png]]
 
 * FIRST ANTIPHON
 
