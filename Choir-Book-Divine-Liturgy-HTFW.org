@@ -16,6 +16,7 @@
 #+LATEX_HEADER: \usepackage[LGR,T1]{fontenc}
 #+HTML_HEAD: <style type="text/css">
 #+HTML_HEAD:   <!--/*--><![CDATA[/*><!--*/
+#+HTML_HEAD:   body { font-size: 16px; }
 #+HTML_HEAD:   .figure p { text-align: left; }
 #+HTML_HEAD:   /*]]>*/-->
 #+HTML_HEAD: </style>
@@ -66,6 +67,45 @@ scoreTitleMarkup=##f
   \time 4/4
   a2 a | g1
 }\addlyrics{To You, O Lord}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/first-antiphon-en.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  e4 e e f
+  \time 6/4
+  g4 g g g f g
+  \time 4/4
+  a2 g | a2 f | g4( a g f) | e1
+}\addlyrics{Through the in- ter- ces- sions of the The- o- to- kos, Sa- vior, save us.}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/first-antiphon-gr.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 2/4
+  e4 f
+  \time 6/4
+  g2 g4 g f g
+  \time 4/4
+  a2 g | a2 f | g4( a) g f | e1
+}\addlyrics{Ταῖς πρεσ- βεί- αις τῆς Θε- ο- τό- κου, Σῶ- τερ, σῶ- σον ἡ- μᾶς.}
+ \addlyrics{Tes pres- vi- es tis The- o- to- ku, So- ter, so- son i- mas.}
 #+end_src
 
 (For use at Holy Trinity Greek Orthodox parish, Fort Wayne, Indiana.)
@@ -143,17 +183,19 @@ For to You belong all glory, honor, and worship, to the Father and to the Son an
 
 * FIRST ANTIPHON
 
-/(Designated Psalm verses are intoned prior to the following refrain.)/
-
 CHOIR
 
-Through the intercessions of the Theotokos, Savior, save us.
+/(Designated Psalm verses are intoned prior to the following refrains.)/
 
-#+LATEX: \selectlanguage{greek}
-#+LATEX: Ταῖς πρεσβείαις τῆς Θεοτόκου, Σῶτερ, σῶσον ἡμᾶς. \\
-#+LATEX: \selectlanguage{greek}
-#+LATEX: \emph{(Tes pres- vi- es tis The- o- to- ku, So- ter, so- son i- mas.)}
-#+HTML: <p>Ταῖς πρεσβείαις τῆς Θεοτόκου, Σῶτερ, σῶσον ἡμᾶς.<br/><i>(Tes pres- vi- es tis The- o- to- ku, So- ter, so- son i- mas.)</i></p>
+# Through the intercessions of the Theotokos, Savior, save us.
+[[./images/first-antiphon-en.png]]
+
+# #+LATEX: \selectlanguage{greek}
+# #+LATEX: Ταῖς πρεσβείαις τῆς Θεοτόκου, Σῶτερ, σῶσον ἡμᾶς. \\
+# #+LATEX: \selectlanguage{greekq}
+# #+LATEX: \emph{(Tes pres- vi- es tis The- o- to- ku, So- ter, so- son i- mas.)}
+# #+HTML: <p>Ταῖς πρεσβείαις τῆς Θεοτόκου, Σῶτερ, σῶσον ἡμᾶς.<br/><i>(Tes pres- vi- es tis The- o- to- ku, So- ter, so- son i- mas.)</i></p>
+[[./images/first-antiphon-gr.png]]
 
 * THE SMALL LITANY
 
@@ -162,21 +204,25 @@ PRIEST
 
 Again and again, in peace, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+# /(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 Help us, save us, have mercy on us, and protect us, O God, by Your grace.
 
-/(Lord, have mercy.)/
+# /(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 Commemorating our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
 
-/(To You, O Lord.)/
+# /(To You, O Lord.)/
+[[./images/TYOL00.png]]
 
 PRIEST
 
 For Yours is the dominion, and Yours is the kingdom and the power and the glory, of the Father and of the Son and of the Holy Spirit, now and forever and to the ages of ages.
 
-/(Amen.)/
+# /(Amen.)/
+[[./images/Amen.png]]
 
 * SECOND ANTIPHON
 
