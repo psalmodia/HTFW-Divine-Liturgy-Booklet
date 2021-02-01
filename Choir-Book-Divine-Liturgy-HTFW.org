@@ -108,9 +108,119 @@ scoreTitleMarkup=##f
  \addlyrics{Tes pres- vi- es tis The- o- to- ku, So- ter, so- son i- mas.}
 #+end_src
 
+#+begin_src lilypond :exports none :results none :file images/second-antiphon-en.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  a4( b) b4 a
+  \time 2/4
+  a4 g
+  \time 6/4
+  g2. f4 g a
+  \time 4/4
+  b2 a4 g | g1 | a4 f a g | g4 f f e | e1
+}\addlyrics{Save us, O Son of God, who did a- rise from the dead. We sing to You, Al- le- lu- i- a.}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/second-antiphon-gr.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  a4( b) b4 b | b4 a a g
+  \time 6/4
+  g2. f4 g a
+  \time 4/4
+  b2 a4 g | g1 |  a4 f a g | g4 f f e | e1
+}\addlyrics{Σῶ- σον ἡ- μᾶς Υἱ- ὲ Θε- οῦ, ὁ ἀ- να- στὰς ἐκ νε- κρῶν, ψάλ- λον- τάς σοι, Ἀλ- λη- λού- ϊ- α.}
+ \addlyrics{So- son i- mas i- e The- u o a- na- stas ek- ne- kron psal- lon- das Si, Al- li- lu- i- a.}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/both-mode2-en.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 1/4
+  f4
+  \time 2/4 g4 e
+  \time 4/4 e8( f g4) g f
+  \time 2/4 g4 a
+  \time 4/4 (b4 a) g f
+  \time 3/4 g4 e f
+  \time 2/4 g2
+}\addlyrics{Both now and ev- er and to the a- ges of a- ges. A- men.}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/glory-both-mode2-en.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4 g4 f g a | b4 a g f | \time 2/4 g4 r4 | \time 4/4 f4 g g e | e8( f g4) g r4
+  \time 3/4 f4 g a |\time 4/4 b4( a) g f | \time 2/4 g4 g | \time 4/4 a8( b a4) g f | \time 3/4 g4 e f | \time 2/4 g4 r4
+}\addlyrics{Glo- ry to the Fa- ther and the Son and the Ho- ly Spi- rit.
+  Both now and ev- er and to the a- ges of a- ges. A- men.}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/justinian-hymn-en.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  e2 e4 f | g4 g g g | a2 a | g2. g4 | b4( a) g( f) | f2( e^\fermata)
+  f4 d e f | g4 g g g |a4 a g( f) | g4 g e f8( g) | f4( g) g2^\fermata
+  r2 g4 a | a4( b) b2( b) a4 b | c2 b4( a) | a2 g^\fermata | g4( e) f g | a2 a | a2 g4^\fermata
+  g4 | b2 a4 g | g4 f f2 | e2^\fermata
+  e4 f | g2 g4 g | a2 a | g2. g4 | b4 a g( f) | e4 d d^\fermata( c^\fermata)
+  g'4^\fermata g^\fermata a b | c2 b4( a) | a4 a g^\fermata
+  g | g4 g b a | g4 f e f | g2. g4 | g4 a b a | g4 f f^\fermata e^\fermata | g4( f e2 f4 g a) g 
+}\addlyrics{
+ On- ly be- got- ten Son and Word of God, Im- mor- tal One,
+ who for our sal- va- tion did so hum- ble Your- self by ta- king on flesh,
+ ta- king flesh by, by the The- o- to- kos and ev- er- vir- gin Ma- ry;
+ with- out change did You be- come man,
+ and were cru- ci- fied, Christ our God;
+ but con- quered death by Your death.
+ As one of the Ho- ly Tri- ni- ty,
+ and be- ing glo- ri- fied to- ge- ther with
+ the Fa- ther and the Ho- ly Spi- rit, save us.
+}
+#+end_src
+
+
 (For use at Holy Trinity Greek Orthodox parish, Fort Wayne, Indiana.)
 
-THE DIVINE LITURGY OF ST. JOHN CHRYSOSTOM
+# THE DIVINE LITURGY OF ST. JOHN CHRYSOSTOM
 
 PRIEST
 
@@ -226,24 +336,33 @@ For Yours is the dominion, and Yours is the kingdom and the power and the glory,
 
 * SECOND ANTIPHON
 
-/(Designated Psalm verses are intoned prior to the following refrain.)/
+CHOIR
+
+/(Designated Psalm verses are intoned prior to the following refrains.)/
+
+# Save us, O Son of God, risen from the dead. We sing to You, Alleluia.
+[[./images/second-antiphon-en.png]]
+
+# #+LATEX: \selectlanguage{greek}
+# #+LATEX: Σῶσον ἡμᾶς Υἱὲ Θεοῦ, ὁ ἀναστὰς ἐκ νεκρῶν, ψάλλοντάς σοι, Ἀλληλούϊα. \\
+# #+LATEX: \selectlanguage{greek}
+# #+LATEX: \emph{(So- son i- mas i- e The- u o a- na- stas ek- ne- kron psal- lon- das Si, Al- li- lu- i- a.)}
+# #+HTML: <p>Σῶσον ἡμᾶς Υἱὲ Θεοῦ, ὁ ἀναστὰς ἐκ νεκρῶν, ψάλλοντάς σοι, Ἀλληλούϊα.<br/><i>(So- son i- mas i- e The- u o a- na- stas ek- ne- kron psal- lon- das Si, Al- li- lu- i- a.)</i></p>
+[[./images/second-antiphon-gr.png]]
 
 CHOIR
 
-Save us, O Son of God, risen from the dead. We sing to You, Alleluia.
+# Glory to the Father and the Son and the Holy Spirit.
+# Both now and ever and to the ages of ages. Amen.
+# Music from AGES (Sacraments, Services, and Music > Frequently Used > Glory. Both now. > Mode 2 > Heirmologic )
+[[./images/glory-both-mode2-en.png]]
 
-#+LATEX: \selectlanguage{greek}
-#+LATEX: Σῶσον ἡμᾶς Υἱὲ Θεοῦ, ὁ ἀναστὰς ἐκ νεκρῶν, ψάλλοντάς σοι, Ἀλληλούϊα. \\
-#+LATEX: \selectlanguage{greek}
-#+LATEX: \emph{(So- son i- mas i- e The- u o a- na- stas ek- ne- kron psal- lon- das Si, Al- li- lu- i- a.)}
-#+HTML: <p>Σῶσον ἡμᾶς Υἱὲ Θεοῦ, ὁ ἀναστὰς ἐκ νεκρῶν, ψάλλοντάς σοι, Ἀλληλούϊα.<br/><i>(So- son i- mas i- e The- u o a- na- stas ek- ne- kron psal- lon- das Si, Al- li- lu- i- a.)</i></p>
-
-CHOIR
-
-Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.
+# # Music from AGES (The Both before the Theotokion "You are suprememly blessed, O Virgin")
+# [[./images/both-mode2-en.png]]
 
 # Old Green Book:
-Only begotten Son and Word of God, Immortal One, who for our salvation did so humble Yourself by taking on flesh, taking flesh by, by the Theotokos and ever-virgin Mary; without change did You become man, and were crucified, Christ our God; but conquered death by Your death. As one of the Holy Trinity, and being glorified together with the Father and the Holy Spirit, save us.
+# Only begotten Son and Word of God, Immortal One, who for our salvation did so humble Yourself by taking on flesh, taking flesh by, by the Theotokos and ever-virgin Mary; without change did You become man, and were crucified, Christ our God; but conquered death by Your death. As one of the Holy Trinity, and being glorified together with the Father and the Holy Spirit, save us.
+[[./images/justinian-hymn-en.png]]
 
 * THE SMALL LITANY
 
@@ -252,21 +371,25 @@ PRIEST
 
 Again and again, in peace, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+# /(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 Help us, save us, have mercy on us, and protect us, O God, by Your grace.
 
-/(Lord, have mercy.)/
+# /(Lord, have mercy.)/
+[[./images/LHM00.png]]
 
 Commemorating our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
 
-/(To You, O Lord.)/
+# /(To You, O Lord.)/
+[[./images/TYOL00.png]]
 
 PRIEST
 
 For You, O God, are good and love mankind, and to You we offer glory, to the Father and to the Son and to the Holy Spirit, now and forever, and to the ages of ages.
 
-/(Amen.)/
+# /(Amen.)/
+[[./images/Amen.png]]
 
 * THIRD ANTIPHON
 
