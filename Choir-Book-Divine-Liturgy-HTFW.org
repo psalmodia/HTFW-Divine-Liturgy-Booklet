@@ -88,6 +88,25 @@ scoreTitleMarkup=##f
 }\addlyrics{Through the in- ter- ces- sions of the The- o- to- kos, Sa- vior, save us.}
 #+end_src
 
+#+begin_src lilypond :exports none :results none :file images/first-antiphon-final-en.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  g4 g g g
+  \time 6/4
+  a4 g g f g a | a4( b) b1 | g4 g a2(g4 e) |
+  \time 4/4
+  f2.( g4 a2 g)\fermata |
+}\addlyrics{Through the in- ter- ces- sions of the The- o- to- kos, Sa- vior, save us.}
+#+end_src
+
 #+begin_src lilypond :exports none :results none :file images/first-antiphon-gr.png :noweb yes
 <<lpsnippet()>>
 \layout {
@@ -306,6 +325,8 @@ CHOIR
 # #+LATEX: \emph{(Tes pres- vi- es tis The- o- to- ku, So- ter, so- son i- mas.)}
 # #+HTML: <p>Ταῖς πρεσβείαις τῆς Θεοτόκου, Σῶτερ, σῶσον ἡμᾶς.<br/><i>(Tes pres- vi- es tis The- o- to- ku, So- ter, so- son i- mas.)</i></p>
 [[./images/first-antiphon-gr.png]]
+
+[[./images/first-antiphon-final-en.png]]
 
 * THE SMALL LITANY
 
