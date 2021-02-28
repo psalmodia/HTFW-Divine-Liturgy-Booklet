@@ -45,6 +45,18 @@ scoreTitleMarkup=##f
 }\addlyrics{A- men}
 #+end_src
 
+#+begin_src lilypond :exports none :results none :file images/Amin.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 2/4
+  g2
+  \time 4/4
+  g1
+}\addlyrics{Ἀ -- μήν}\addlyrics{A -- min}
+#+end_src
+
 #+begin_src lilypond :exports none :results none :file images/LHM00.png :noweb yes
 <<lpsnippet()>>
 \relative c'' {
@@ -55,6 +67,18 @@ scoreTitleMarkup=##f
   \time 5/4
   g4 g1
 }\addlyrics{Lord, have mer- cy}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/KE00.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 3/4
+  g4 fis e
+  \time 6/4
+  g4 g g1
+}\addlyrics{Κύ -- ρι -- ε, 'λέ -- η -- σον}\addlyrics{Ky -- ri -- e, 'le -- i -- son}
 #+end_src
 
 #+begin_src lilypond :exports none :results none :file images/TYOL00.png :noweb yes
@@ -263,6 +287,60 @@ scoreTitleMarkup=##f
  we sing to You: Al -- le -- lu -- i -- a.
 }
 #+end_src
+
+#+begin_src lilypond :exports none :results none :file images/holy-god-en.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+%\markup { \override #'(line-width . 68.5) \fill-line { \null \null \teeny "(Old Green Book)" } }
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  b4( a g f | g2) e | f2( g) |
+  b4( a g f | g2) e | f2 g |
+  g4( e) f g | b4( a g f) | e2. g4 | b2( a) | g2 f | g1 |
+}\addlyrics{Ho -- ly God, Ho -- ly Migh -- ty, Ho -- ly Im -- mor -- tal, have mer -- cy on us.}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/holy-immortal-en.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+%\markup { \override #'(line-width . 68.5) \fill-line { \null \null \teeny "(Old Green Book)" } }
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  g4( e) f g | b4( a g f) | e2. g4 | b2( a) | g2 f | g1 |
+}\addlyrics{Ho -- ly Im -- mor -- tal, have mer -- cy on us.}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/holy-god-gr.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+%\markup { \override #'(line-width . 68.5) \fill-line { \null \null \teeny "(Old Green Book)" } }
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  b4( a) g( f) | g2 e | f2 g |
+  b4( a) g( f) | g2 e | f2 g |
+  g4 e f g | b4( a) g( f) | e2. g4 | b2 a | g2 f | g1 |
+}\addlyrics{Ἅ -- γι -- ος ὁ Θε -- ός, Ἅ -- γι -- ος ἰσ -- χυ -- ρός, Ἅ -- γι -- ος ἀ -- θά -- να -- τος, ἐ -- λέ -- η -- σον ἡ -- μᾶς.}
+\addlyrics{A -- yi -- os o The -- os, A -- yi -- os I -- schi -- ros, A -- yi -- os A -- tha -- na -- tos, e -- le -- i -- son i -- mas.}
+#+end_src
+
 
 (For use at Holy Trinity Greek Orthodox parish, Fort Wayne, Indiana.)
 
@@ -488,8 +566,10 @@ PRIEST
 #+LATEX: \selectlanguage{english}
 #+LATEX: \emph{(Ky - ri - e, - 'le - i – son)} \\[1em]
 #+HTML: <p>Τοῦ Κυρίου δεηθῶμεν.</p>
-#+HTML: <p><i>(Κύριε, ἐλέησον.)</i><br/>
-#+HTML: <i>(Ky - ri - e, - 'le - i – son)</i></p>
+# #+HTML: <p><i>(Κύριε, ἐλέησον.)</i><br/>
+# #+HTML: <i>(Ky - ri - e, - 'le - i – son)</i></p>
+
+[[./images/KE00.png]]
 
 #+LATEX: \selectlanguage{greek}
 #+LATEX: Ὅτι Ἅγιος εἶ ὁ Θεὸς ἡμῶν, καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ Ἁγίῳ Πνεύματι, νῦν καὶ ἀεί καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων. \\[1em]
@@ -497,24 +577,32 @@ PRIEST
 #+LATEX: \selectlanguage{english}
 #+LATEX: \emph{(A-min.)} \\[1em]
 #+HTML: <p>Ὅτι Ἅγιος εἶ ὁ Θεὸς ἡμῶν, καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ Ἁγίῳ Πνεύματι, νῦν καὶ ἀεί καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.</p>
-#+HTML: <p><i>(Ἀμήν.)</i><br/><i>(A-min.)</i></p>
+# #+HTML: <p><i>(Ἀμήν.)</i><br/><i>(A-min.)</i></p>
+
+[[./images/Amin.png]]
 
 PEOPLE
 
-Holy God, Holy Mighty, Holy Immortal, have mercy on us.
+# Holy God, Holy Mighty, Holy Immortal, have mercy on us.
+[[./images/holy-god-en.png]]
 
 #+LATEX: \selectlanguage{greek}
 #+LATEX: Ἅγιος ὁ Θεός, Ἅγιος ἰσχυρός, Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς. \\
 #+LATEX: \selectlanguage{english}
 #+LATEX: (A-yi - os o The-os, A-yi-os I-schi-ros, A-yi-os A - tha-na - tos, e - le-i-son i - mas.) \\[1em]
-#+HTML: <p>Ἅγιος ὁ Θεός, Ἅγιος ἰσχυρός, Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς.<br/>
-#+HTML: (A-yi - os o The-os, A-yi-os I-schi-ros, A-yi-os A - tha-na - tos, e - le-i-son i - mas.)</p>
+# #+HTML: <p>Ἅγιος ὁ Θεός, Ἅγιος ἰσχυρός, Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς.<br/>
+# #+HTML: (A-yi - os o The-os, A-yi-os I-schi-ros, A-yi-os A - tha-na - tos, e - le-i-son i - mas.)</p>
+[[./images/holy-god-gr.png]]
 
-Holy God, Holy Mighty, Holy Immortal, have mercy on us.
+# Holy God, Holy Mighty, Holy Immortal, have mercy on us.
+[[./images/holy-god-en.png]]
 
-Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.
+# Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.
+[[./images/glory-both-mode2-en.png]]
 
-Holy Immortal, have mercy on us.
+
+# Holy Immortal, have mercy on us.
+[[./images/holy-immortal-en.png]]
 
 # #+LATEX: \selectlanguage{greek}
 # #+LATEX: Δόξα Πατρί καί Υἱῷ καί Ἁγίῳ Πνεύματι· καί νῦν καί ἀεί καί εἰς τούς αἰῶνας τῶν αἰώνων. Ἀμήν. \\
@@ -542,8 +630,9 @@ PEOPLE
 #+LATEX: Ἅγιος ὁ Θεός, Ἅγιος ἰσχυρός, Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς. \\
 #+LATEX: \selectlanguage{english}
 #+LATEX: (A-yi - os o The-os, A-yi-os I-schi-ros, A-yi-os A - tha-na - tos, e - le-i-son i - mas.) \\[1em]
-#+HTML: <p>Ἅγιος ὁ Θεός, Ἅγιος ἰσχυρός, Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς.<br/>
-#+HTML: (A-yi - os o The-os, A-yi-os I-schi-ros, A-yi-os A - tha-na - tos, e - le-i-son i - mas.)</p>
+# #+HTML: <p>Ἅγιος ὁ Θεός, Ἅγιος ἰσχυρός, Ἅγιος ἀθάνατος, ἐλέησον ἡμᾶς.<br/>
+# #+HTML: (A-yi - os o The-os, A-yi-os I-schi-ros, A-yi-os A - tha-na - tos, e - le-i-son i - mas.)</p>
+[[./images/holy-god-gr.png]]
 
 * READINGS
 
