@@ -236,6 +236,33 @@ scoreTitleMarkup=##f
 }
 #+end_src
 
+#+begin_src lilypond :exports none :results none :file images/entrance-hymn-en.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\markup { \override #'(line-width . 68.5) \fill-line { \null \null \teeny "(G. Theodoridis)" } }
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 3/4
+  g4 g g
+  \time 4/4
+  e4( f g a) g2 g4 g b( a g f) \time 3/4 e2 f4 \time 6/4 a( g f8 g e f g2)
+  \time 4/4
+  g8( a b4) b a \time 3/4 a2 g4 \time 4/4 g2
+  g4 f \time 3/4 e2 f4 \time 4/4 a( g f8 g e f \time 3/4 g2)
+  g4 \time 3/4 a( b) b \time 4/4 b( a) a g \time 7/4 g8( a b4) a4 g1
+}\addlyrics{
+  Come, let us
+  wor -- ship and bow down be -- fore Christ. __
+ Save us, O Son of God
+ ris -- en from the dead, __
+ we sing to You: Al -- le -- lu -- i -- a.
+}
+#+end_src
 
 (For use at Holy Trinity Greek Orthodox parish, Fort Wayne, Indiana.)
 
@@ -441,9 +468,11 @@ Wisdom. Let us be attentive.
 
 PEOPLE
 
-#+LATEX: \selectlanguage{greek}
-Δεῦτε προσκυνήσωμεν καὶ προσπέσωμεν Χριστῷ. Σῶσον ἡμᾶς Υἱὲ Θεοῦ, ὁ ἀναστὰς ἐκ νεκρῶν, ψάλλοντάς σοι, Ἀλληλούϊα.
-#+LATEX: \selectlanguage{english}
+[[./images/entrance-hymn-en.png]]
+
+# #+LATEX: \selectlanguage{greek}
+# Δεῦτε προσκυνήσωμεν καὶ προσπέσωμεν Χριστῷ. Σῶσον ἡμᾶς Υἱὲ Θεοῦ, ὁ ἀναστὰς ἐκ νεκρῶν, ψάλλοντάς σοι, Ἀλληλούϊα.
+# #+LATEX: \selectlanguage{english}
 
 # Come, let us worship and bow down before Christ. Save us, O Son of God who did rise from the dead, we sing to You: Alleluia.
 
