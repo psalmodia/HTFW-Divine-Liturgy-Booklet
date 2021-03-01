@@ -162,9 +162,8 @@ scoreTitleMarkup=##f
   \textLengthOn
   \override Staff.TimeSignature #'stencil = ##f
   \time 4/4
-  a4( b) b4 a
-  \time 2/4
-  a4 g
+  a4( b) b b
+  b4( a) a( g)
   \time 6/4
   g2. f4 g a
   \time 4/4
