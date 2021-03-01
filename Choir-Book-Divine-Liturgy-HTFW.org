@@ -341,6 +341,73 @@ scoreTitleMarkup=##f
 \addlyrics{A -- yi -- os o The -- os, A -- yi -- os I -- schi -- ros, A -- yi -- os A -- tha -- na -- tos, e -- le -- i -- son i -- mas.}
 #+end_src
 
+#+begin_src lilypond :exports none :results none :file images/alleluia-post-epistle.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+%\markup { \override #'(line-width . 68.5) \fill-line { \null \null \teeny "(Old Green Book)" } }
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 2/4
+  c4 d | e8 e e4\fermata | d4 e | f8 f f4\fermata | e4 f | g4\fermata f\fermata | e2 
+}\addlyrics{Al -- le -- lu -- i -- a, Al -- le -- lu -- i -- a, Al -- le -- lu -- i -- a.}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/AWYS-gospel.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+%\markup { \override #'(line-width . 68.5) \fill-line { \null \null \teeny "(Old Green Book)" } }
+\relative f' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \key f \major
+  \time 4/4
+  f2 e4 f | g2 f
+}\addlyrics{And with your spi -- rit.}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/glory-gospel.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+%\markup { \override #'(line-width . 68.5) \fill-line { \null \null \teeny "(Old Green Book)" } }
+\relative f' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \key f \major
+  \time 4/4
+  f2 f4 f | f4 f f2 | g2 g4 g | f1
+}\addlyrics{Glo -- ry to You, O Lord, glo -- ry to You. }
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/glory-gospel-2.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+%\markup { \override #'(line-width . 68.5) \fill-line { \null \null \teeny "(Old Green Book)" } }
+\relative f' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \key f \major
+  \time 4/4
+  f2 f4 f | f4 c c2 | bes'2 a4 g | \time 3/4 g2( f4 | \time 4/4 e2 d4 e | f1)
+}\addlyrics{Glo -- ry to You, O Lord, glo -- ry to You. __}
+#+end_src
+
 
 (For use at Holy Trinity Greek Orthodox parish, Fort Wayne, Indiana.)
 
@@ -664,7 +731,8 @@ Peace be with you.
 
 PEOPLE
 
-Alleluia. Alleluia. Alleluia.
+# Alleluia. Alleluia. Alleluia.
+[[./images/alleluia-post-epistle.png]]
 
 ** THE HOLY GOSPEL
 
@@ -674,7 +742,8 @@ Wisdom. Arise. Let us hear the Holy Gospel. Peace be with you all.
 
 PEOPLE
 
-And with your spirit.
+# And with your spirit.
+[[./images/AWYS-gospel.png]]
 
 PRIEST
 
@@ -682,7 +751,8 @@ The reading is from the Holy Gospel according to /(Name)/.
 
 PEOPLE
 
-Glory to You, O Lord, glory to You.
+# Glory to You, O Lord, glory to You.
+[[./images/glory-gospel.png]]
 
 PRIEST
 
@@ -692,7 +762,9 @@ Let us be attentive!
 
 PEOPLE
 
-Glory to You, O Lord, glory to You.
+# Glory to You, O Lord, glory to You.
+[[./images/glory-gospel-2.png]]
+
 
 * CHILDREN'S SERMON
 
