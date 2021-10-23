@@ -93,6 +93,18 @@ scoreTitleMarkup=##f
 }\addlyrics{To You, O Lord}
 #+end_src
 
+#+begin_src lilypond :exports none :results none :file images/SK00.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 2/4
+  g2
+  \time 4/4
+  a2 a | g1
+}\addlyrics{Σοί, Κύ -- ρι -- ε.}\addlyrics{Si, Ky -- ri -- e.}
+#+end_src
+
 #+begin_src lilypond :exports none :results none :file images/first-antiphon-en.png :noweb yes
 <<lpsnippet()>>
 \layout {
@@ -373,6 +385,23 @@ scoreTitleMarkup=##f
 }\addlyrics{And with your spi -- rit.}
 #+end_src
 
+#+begin_src lilypond :exports none :results none :file images/AWYS.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative g' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  g2 fis4 g
+  \time 6/4
+  a2 g1
+}\addlyrics{And with your spi -- rit.}
+#+end_src
+
 #+begin_src lilypond :exports none :results none :file images/glory-gospel.png :noweb yes
 <<lpsnippet()>>
 \layout {
@@ -405,6 +434,18 @@ scoreTitleMarkup=##f
   \time 4/4
   f2 f4 f | f4 c c2 | bes'2 a4 g | \time 3/4 g2( f4 | \time 4/4 e2 d4 e | f1)
 }\addlyrics{Glo -- ry to You, O Lord, glo -- ry to You. __}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/GTOL00.png :noweb yes
+<<lpsnippet()>>
+\relative g' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 1/8
+  d8
+  \time 3/4
+  g4 fis8( g) g4
+}\addlyrics{Grant this, O Lord}
 #+end_src
 
 
@@ -514,27 +555,31 @@ Glory to the Father and the Son and the Holy Spirit.  Both now and ever and to t
 # DEACON
 PRIEST
 
-Again and again, in peace, let us pray to the Lord.
+# Again and again, in peace, let us pray to the Lord.
+Ἔτι καὶ ἔτι ἐν εἰρήνῃ τοῦ Κυρίου δεηθῶμεν.
 
 # /(Lord, have mercy.)/
-[[./images/LHM00.png]]
+[[./images/KE00.png]]
 
-Help us, save us, have mercy on us, and protect us, O God, by Your grace.
+# Help us, save us, have mercy on us, and protect us, O God, by Your grace.
+Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς ὁ Θεὸς τῇ σῇ χάριτι.
 
 # /(Lord, have mercy.)/
-[[./images/LHM00.png]]
+[[./images/KE00.png]]
 
-Commemorating our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
+# Commemorating our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
+Τῆς Παναγίας ἀχράντου, ὑπερευλογημένης, ἐνδόξου Δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν Ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.
 
 # /(To You, O Lord.)/
-[[./images/TYOL00.png]]
+[[./images/SK00.png]]
 
 PRIEST
 
-For Yours is the dominion, and Yours is the kingdom and the power and the glory, of the Father and of the Son and of the Holy Spirit, now and forever and to the ages of ages.
+# For Yours is the dominion, and Yours is the kingdom and the power and the glory, of the Father and of the Son and of the Holy Spirit, now and forever and to the ages of ages.
+Ὅτι σὸν τὸ κράτος καὶ σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα, τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος, νῦν καὶ ἀεὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.
 
 # /(Amen.)/
-[[./images/Amen.png]]
+[[./images/Amin.png]]
 
 * SECOND ANTIPHON
 
@@ -810,51 +855,63 @@ PRIEST
 
 Let us complete our prayer to the Lord.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
+# /(Lord, have mercy.)/
 
 For the precious Gifts here presented, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
+# /(Lord, have mercy.)/
 
 For this holy house and for those who enter it with faith, reverence, and the fear of God, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
+# /(Lord, have mercy.)/
 
 For our deliverance from all affliction, wrath, danger, and necessity, let us pray to the Lord.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
+# /(Lord, have mercy.)/
 
 Help us, save us, have mercy on us, and protect us, O God, by Your grace.
 
-/(Lord, have mercy.)/
+[[./images/LHM00.png]]
+# /(Lord, have mercy.)/
 
 That the whole day may be perfect, holy, peaceful, and sinless, let us ask the Lord.
 
-/(Grant this, O Lord.)/
+[[./images/GTOL00.png]]
+# /(Grant this, O Lord.)/
 
 For an angel of peace, a faithful guide, a guardian of our souls and bodies, let us ask the Lord.
 
-/(Grant this, O Lord.)/
+[[./images/GTOL00.png]]
+# /(Grant this, O Lord.)/
 
 For pardon and remission of our sins and transgressions, let us ask the Lord.
 
-/(Grant this, O Lord.)/
+[[./images/GTOL00.png]]
+# /(Grant this, O Lord.)/
 
 For that which is good and beneficial for our souls, and for peace for the world, let us ask the Lord.
 
-/(Grant this, O Lord.)/
+[[./images/GTOL00.png]]
+# /(Grant this, O Lord.)/
 
 That we may complete the remaining time of our life in peace and repentance, let us ask the Lord.
 
-/(Grant this, O Lord.)/
+[[./images/GTOL00.png]]
+# /(Grant this, O Lord.)/
 
 And let us ask for a Christian end to our life, peaceful, without shame and suffering, and for a good defense before the awesome judgment seat of Christ.
 
-/(Grant this, O Lord.)/
+[[./images/GTOL00.png]]
+# /(Grant this, O Lord.)/
 
 Commemorating our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
 
-/(To You, O Lord.)/
+[[./images/TYOL00.png]]
+# /(To You, O Lord.)/
 
 ** THE PRAYER OF THE PROSKOMIDE
 
@@ -864,7 +921,8 @@ Through the mercies of Your only begotten Son, with Whom You are blessed, togeth
 
 CHOIR
 
-Amen.
+# Amen.
+[[./images/Amen.png]]
 
 PRIEST
 
@@ -872,7 +930,8 @@ Peace be with all.
 
 CHOIR
 
-And with your spirit.
+# And with your spirit.
+[[./images/AWYS.png]]
 
 DEACON
 
@@ -880,7 +939,23 @@ Let us love one another, that with oneness of mind we may confess:
 
 CHOIR
 
-Father, Son, and Holy Spirit: Trinity, one in essence and undivided.
+# Father, Son, and Holy Spirit: Trinity, one in essence and undivided.
+#+begin_src lilypond :exports none :results none :file images/FSHS.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  c4( b) c( d) | e2. e4 | f8( e d4) e4( f) | g2 g4 r8 g8 | c4 a g( f) | f4 e8( f) g4( f) | e2 c4 d | e2 d | c1
+}\addlyrics{Fa -- ther, Son, and Ho -- ly Spi -- rit, the Tri -- ni -- ty, one in es -- sence and in -- se -- p'ra -- ble.}
+#+end_src
+
+[[./images/FSHS.png]]
 
 /(The Priest kisses the holy Gifts and he sings in Romanian:)/
 
