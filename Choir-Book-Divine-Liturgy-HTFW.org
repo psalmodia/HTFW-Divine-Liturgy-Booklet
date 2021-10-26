@@ -57,6 +57,16 @@ scoreTitleMarkup=##f
 }\addlyrics{Ἀ -- μήν}\addlyrics{A -- min}
 #+end_src
 
+#+begin_src lilypond :exports none :results none :file images/Big-Amen.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  g4( f e a g2 f) | e1
+}\addlyrics{A- men}
+#+end_src
+
 #+begin_src lilypond :exports none :results none :file images/LHM00.png :noweb yes
 <<lpsnippet()>>
 \relative c'' {
@@ -441,8 +451,8 @@ scoreTitleMarkup=##f
 \relative g' {
   \textLengthOn
   \override Staff.TimeSignature #'stencil = ##f
-  \time 1/8
-  d8
+  \time 1/4
+  d4
   \time 3/4
   g4 fis8( g) g4
 }\addlyrics{Grant this, O Lord}
@@ -1038,7 +1048,25 @@ Let us stand aright! Let us stand in awe! Let us be attentive, that we may prese
 
 CHOIR
 
-A mercy of peace, a sacrifice of praise.
+# A mercy of peace, a sacrifice of praise.
+#+begin_src lilypond :exports none :results none :file images/AMOP.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 1/4
+  c4
+  \time 4/4
+  c4( b) c d | e4(f e4.) e8 | f4 d e f | g2( f e1)
+}\addlyrics{A mer -- cy of peace, a sa --cri -- fice of praise.}
+#+end_src
+
+[[./images/AMOP.png]]
 
 PRIEST
 
@@ -1046,7 +1074,23 @@ The grace of our Lord Jesus Christ, and the love of God and Father, and the comm
 
 CHOIR
 
-And with your spirit.
+# And with your spirit.
+#+begin_src lilypond :exports none :results none :file images/AWYS-Anafora.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  e4.( g8) f8( e) d4 | e4( f g a) g1
+}\addlyrics{And with your spi -- rit.}
+#+end_src
+
+[[./images/AWYS-Anafora.png]]
 
 PRIEST
 
@@ -1054,7 +1098,23 @@ Let us lift up our hearts.
 
 CHOIR
 
-We lift them up to the Lord.
+# We lift them up to the Lord.
+#+begin_src lilypond :exports none :results none :file images/Lift-to-the-Lord.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 3/4
+  c4 g g | g2 a4 | a4( g) f | e2.
+}\addlyrics{We lift them up un -- to the Lord.}
+#+end_src
+
+[[./images/Lift-to-the-Lord.png]]
 
 PRIEST
 
@@ -1062,7 +1122,23 @@ Let us give thanks to the Lord.
 
 CHOIR
 
-It is proper and right.
+# It is proper and right.
+#+begin_src lilypond :exports none :results none :file images/Proper-and-right.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 3/4
+  f2 e4 | d4 e f | e2.( d c)
+}\addlyrics{It is pro -- per and right.}
+#+end_src
+
+[[./images/Proper-and-right.png]]
 
 PRIEST
 
@@ -1075,13 +1151,34 @@ Singing the victory hymn, proclaiming, crying out, and saying:
 PEOPLE
 
 # Old Green Book:
-Holy, holy, holy, Lord of angelic hosts, heaven, heaven and earth are filled with Your glory. Hosanna in the highest. O Blessed is He who comes in the Lord’s name. In the name of the Lord. Hosanna in the highest.
+# Holy, holy, holy, Lord of angelic hosts, heaven and earth are filled with Your glory. Hosanna in the highest. Blessed is He who comes in the name of the Lord. Hosanna in the highest.
+#+begin_src lilypond :exports none :results none :file images/Holy-Holy-Holy.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 3/4
+  c2 c4 | d2 d4 | e2 e4 | f4 e d | e f g\fermata |
+  \time 4/4
+  a2 g | a4 b c2 | \time 5/4 c,4 c2 c4 d \time 4/4 e2 e |
+  e4.( g8) f8( e) d4 | e4 f g( a) | g4. g8 g4 a | bes4( a) g f |
+  f4 e8 f g4( f) | e2 e4. g8 | f8( e d4) e f | g4( a g4.\fermata) g8 |
+  a2( b) | c1 | c4( b) c( d) | c2( b) | c1 
+}\addlyrics{Ho -- ly, ho -- ly, ho -- ly, Lord of an -- ge -- lic hosts, hea -- ven, heav'n and earth are filled with Your glo -- ry. Ho -- san -- na in the high -- est. O Bles -- sed is He who comes in the Lord’s name. In the name of the Lord. Ho -- san -- na in the high -- est.}
+#+end_src
+
+[[./images/Holy-Holy-Holy.png]]
 
 #+LATEX: \selectlanguage{greek}
 #+LATEX: Ἅγιος, ἅγιος, ἅγιος Κύριος Σαβαώθ· πλήρης ὁ οὐρανὸς καὶ ἡ γῆ τῆς δόξης σου, ὡσαννὰ ἐν τοῖς ὑψίστοις. Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι Κυρίου. Ὡσαννὰ ὁ ἐν τοῖς ὑψίστοις. \\
 #+LATEX: \selectlanguage{english}
 #+LATEX: \emph{(A-yi-os, A-yi - os, A-yi-os, Ky - ri-os Sa-va-oth, pli - ris o ou-ra-nos, ke i yi tis dho-xis Sou. O-san - na en tis i - psi - stis. Ev-lo-yi - me-nos o er- ho-me-nos eno-no-ma-ti Ky-ri-ou, O-san-na o en tis i-psi-stis.)}
-#+HTML: <p>Ἅγιος, ἅγιος, ἅγιος Κύριος Σαβαώθ· πλήρης ὁ οὐρανὸς καὶ ἡ γῆ τῆς δόξης σου, ὡσαννὰ ἐν τοῖς ὑψίστοις. Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι Κυρίου. Ὡσαννὰ ὁ ἐν τοῖς ὑψίστοις.<br/><i>(A-yi-os, A-yi - os, A-yi-os, Ky - ri-os Sa-va-oth, pli - ris o ou-ra-nos, ke i yi tis dho-xis Sou. O-san - na en tis i - psi - stis. Ev-lo-yi - me-nos o er- ho-me-nos eno-no-ma-ti Ky-ri-ou, O-san-na o en tis i-psi-stis.)</i></p>
+# #+HTML: <p>Ἅγιος, ἅγιος, ἅγιος Κύριος Σαβαώθ· πλήρης ὁ οὐρανὸς καὶ ἡ γῆ τῆς δόξης σου, ὡσαννὰ ἐν τοῖς ὑψίστοις. Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι Κυρίου. Ὡσαννὰ ὁ ἐν τοῖς ὑψίστοις.<br/><i>(A-yi-os, A-yi - os, A-yi-os, Ky - ri-os Sa-va-oth, pli - ris o ou-ra-nos, ke i yi tis dho-xis Sou. O-san - na en tis i - psi - stis. Ev-lo-yi - me-nos o er- ho-me-nos eno-no-ma-ti Ky-ri-ou, O-san-na o en tis i-psi-stis.)</i></p>
 
 PRIEST
 
@@ -1089,7 +1186,8 @@ Take, eat, this is my Body, which is broken for you for the forgiveness of sins.
 
 PEOPLE
 
-Amen.
+# Amen.
+[[./images/Amen.png]]
 
 PRIEST
 
@@ -1101,7 +1199,8 @@ Drink of it all of you; this is my Blood of the new Covenant which is shed for y
 
 PEOPLE
 
-Amen.
+# Amen.
+[[./images/Big-Amen.png]]
 
 PRIEST
 
@@ -1113,11 +1212,60 @@ We offer You Your own of Your own in behalf of all and for all.
 
 PEOPLE
 
-#+LATEX: \selectlanguage{greek}
-Σὲ ὑμνοῦμεν, σὲ εὐλογοῦμεν, σοὶ εὐχαριστοῦμεν, Κύριε, καὶ δεόμεθά σου, ὁ Θεὸς ἡμῶν.
-#+LATEX: \selectlanguage{english}
+# #+LATEX: \selectlanguage{greek}
+# Σὲ ὑμνοῦμεν, σὲ εὐλογοῦμεν, σοὶ εὐχαριστοῦμεν, Κύριε, καὶ δεόμεθά σου, ὁ Θεὸς ἡμῶν.
+# #+LATEX: \selectlanguage{english}
+#+begin_src lilypond :exports none :results none :file images/Se-imnoumen.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \key d \minor
+  \time 4/4
+  a2 g4( bes) | a4( g f e) | d1 |
+  a'2 a4 c | bes4( a g2 f8 e g f) e2 |
+  d4 d d e | f4 g a a | a1 |
+  a4 a d e | f2( e4 d c4 d bes d) |
+  a2 f4 g | a4.( g8) f4( e8 d) | d1
+}\addlyrics{Σὲ ὑ -- μνοῦ -- μεν,
+ σὲ εὐ -- λο -- γοῦ -- μεν,
+ σοὶ εὐ -- χα -- ρι -- στοῦ -- μεν, Κύ -- ρι -- ε,
+ καὶ δε -- ό -- με -- θά σου,
+ ὁ Θε -- ὸς ἡ -- μῶν.}
+#+end_src
 
-We praise, we praise you and we bless, we bless You. Thanks we give to You, to You O Lord. Fervently we pray to You, to You, our God.
+[[./images/Se-imnoumen.png]]
+
+# We praise, we praise you and we bless, we bless You. Thanks we give to You, to You O Lord. Fervently we pray to You, to You, our God.
+#+begin_src lilypond :exports none :results none :file images/We-Praise-You.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \key d \minor
+  \time 4/4
+  a2( g4 bes) | a4( g f e) | d2. d4 |
+  a'2 a4( c) | bes4( a g2 f8 e g f) e2 |
+  d4 d d e | f4 g a a | a1 |
+  a4 a d e | f2( e4 d c4 d) bes d |
+  a2 f4( g) | a4.( g8) f4( e8 d) | d1
+}\addlyrics{We praise You, O Lord, we bless You.
+   Un -- to You O Lord we give our thanks,
+   with our fer -- vent pra -- yer to You
+   to You, our God.}
+#+end_src
+
+[[./images/We-Praise-You.png]]
 
 PRIEST
 
