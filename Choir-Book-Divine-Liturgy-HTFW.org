@@ -1350,7 +1350,25 @@ Remember also, Lord, those whom each of us call to mind and all your people.
 
 PEOPLE
 
-And all Your people.
+# And all Your people.
+#+begin_src lilypond :exports none :results none :file images/AAYP.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 1/4
+  g4
+  \time 4/4
+  g4 g a2 | g1
+}\addlyrics{And all your peo -- ple.}
+#+end_src
+
+[[./images/AAYP.png]]
 
 PRIEST
 
@@ -1362,8 +1380,8 @@ And grant that with one voice and one heart we may glorify and praise Your most 
 
 PEOPLE
 
-Amen.
-
+#Amen.
+[[./images/Amen.png]]
 
 PRIEST
 
@@ -1371,7 +1389,8 @@ The mercy of our great God and Savior Jesus Christ be with all of you.
 
 PEOPLE
 
-And with your spirit.
+# And with your spirit.
+[[./images/AWYS.png]]
 
 PRIEST
 
@@ -1379,7 +1398,8 @@ Having remembered all the saints, let us again in peace pray to the Lord.
 
 PEOPLE
 
-Lord, have mercy.
+# Lord, have mercy.
+[[./images/LHM00.png]]
 
 PRIEST
 
@@ -1387,7 +1407,8 @@ For the precious Gifts offered and consecrated, let us pray to the Lord.
 
 PEOPLE
 
-Lord, have mercy.
+# Lord, have mercy.
+[[./images/LHM00.png]]
 
 PRIEST
 
@@ -1395,7 +1416,8 @@ That our loving God who has received them at His holy, heavenly, and spiritual a
 
 PEOPLE
 
-Lord, have mercy.
+# Lord, have mercy.
+[[./images/LHM00.png]]
 
 PRIEST
 
@@ -1403,7 +1425,8 @@ Having prayed for the unity of the faith and for the communion of the Holy Spiri
 
 PEOPLE
 
-To You, O Lord.
+# To You, O Lord.
+[[./images/TYOL00.png]]
 
 PRIEST
 
@@ -1519,17 +1542,20 @@ PRIEST
 
 For Yours is the Kingdom and the power and the glory, of the Father and of the Son and of the Holy Spirit, now and forever and to the ages of ages.
 
-/(Amen.)/
+# /(Amen.)/
+[[./images/Amen.png]]
 
 Peace be with all.
 
-/(And with your spirit.)/
+# /(And with your spirit.)/
+[[./images/AWYS.png]]
 
 # DEACON
 
 Let us bow our heads to the Lord.
 
-/(To You, O Lord.)/
+# /(To You, O Lord.)/
+[[./images/TYOL00.png]]
 
 PRIEST (read)
 
@@ -1541,7 +1567,8 @@ By the grace, mercy, and love for us of Your only begotten Son, with whom You ar
 
 PEOPLE
 
-Amen.
+# Amen.
+[[./images/Big-Amen.png]]
 
 * HOLY COMMUNION
 
@@ -1557,12 +1584,49 @@ The holy Gifts for the holy people of God.
 
 PEOPLE
 
-One is Holy, one is Lord, Jesus Christ, for the glory of God the Father. Amen.
+# One is Holy, one is Lord, Jesus Christ, for the glory of God the Father. Amen.
+#+begin_src lilypond :exports none :results none :file images/One-Is-Holy.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 3/4
+  e2 e4 | e2 c4 | f2 f4 | f2. | d2.( e2) f4 | g2. |
+  r4 g g | c2. | b2 a4 | g4( a) f | g2. | f2 f4 | e2. |
+}\addlyrics{One is Ho -- ly, one is Lord, Je -- sus Christ,
+            for the glo -- ry of God the Fa -- ther. A -- men.}
+#+end_src
 
-#+LATEX: \selectlanguage{greek}
-Εἷς Ἅγιος, εἷς Κύριος, Ἰησοῦς Χριστός, εἰς δόξαν Θεοῦ Πατρός. Ἀμήν. \\
-#+LATEX: \selectlanguage{english}
-(Is A-yi - os, is Ky-ri - os, I-i - sous Chri- - stos is dho - xan The - ou Pa - tros. A - min.)
+[[./images/One-Is-Holy.png]]
+
+# #+LATEX: \selectlanguage{greek}
+# Εἷς Ἅγιος, εἷς Κύριος, Ἰησοῦς Χριστός, εἰς δόξαν Θεοῦ Πατρός. Ἀμήν. \\
+# #+LATEX: \selectlanguage{english}
+# (Is A-yi - os, is Ky-ri - os, I-i - sous Chri- - stos is dho - xan The - ou Pa - tros. A - min.)
+#+begin_src lilypond :exports none :results none :file images/Eis-Ayios.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 1/4
+  c4
+  \time 3/4
+  e2 e4 | e2 c4 | f2 f4 | f2. | d2 d4 | e2 f4 | g2.( g4)
+  r4 g | c2. | b2 a4 | g4( a) f | g2. | f2. | e2. |
+}\addlyrics{Εἷς Ἅ -- γι -- ος, εἷς Κύ -- ρι -- ος, Ἰ -- η -- σοῦς Χρι -- στός, εἰς δό -- ξαν Θε -- οῦ Πα -- τρός. Ἀ -- μήν.}
+#+end_src
+
+[[./images/Eis-Ayios.png]]
 
 PEOPLE
 
@@ -1582,13 +1646,66 @@ Receive me today, Son of God, as a partaker of Your mystical Supper. I will not 
 
 PEOPLE
 
-Praise, praise the Lord from the heavens; praise Him; praise Him in the highest, the highest.
+# Praise, praise the Lord from the heavens; praise Him; praise Him in the highest, the highest.
 
-#+LATEX: \selectlanguage{greek}
-#+LATEX: Αἰνεῖτε τὸν Κύριον ἐκ τῶν οὐρανῶν. Αἰνεῖτε αὐτὸν ἐν τοῖς ὑψίστοις. Ἀλληλούϊα. Ἀλληλούϊα. Ἀλληλούϊα \\
-#+LATEX: \selectlanguage{english}
-#+LATEX: \emph{(E - ni - te ton Ky - ri - on ek ton ou-ra - non, e- -  ni - te af - ton en tis i - psi - stis. Al-li- lou-i - a. Al-li-lou-i - a. Al-li - lou - i - a.)}
-#+HTML: <p>Αἰνεῖτε τὸν Κύριον ἐκ τῶν οὐρανῶν. Αἰνεῖτε αὐτὸν ἐν τοῖς ὑψίστοις. Ἀλληλούϊα. Ἀλληλούϊα. Ἀλληλούϊα<br/><i>(E - ni - te ton Ky - ri - on ek ton ou-ra - non, e- -  ni - te af - ton en tis i - psi - stis. Al-li- lou-i - a. Al-li-lou-i - a. Al-li - lou - i - a.)</i></p>
+# Music from DCS.
+#+begin_src lilypond :exports none :results none :file images/Communion-Hymn-en.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  e4( d) c4( b8 d) | c4 r e f | g4( a f g) |
+  \time 2/4
+  g4 r
+  \time 4/4
+  a4( g f e) | d4 r e f | e4.( d8 c d c4) | c4 r c c | d4( e f8 g f e) | e4.( d8 c d c4) | c2. r4 |
+}\addlyrics{Praise the Lord from the heav -- ens, praise Him in the high -- est.  Al -- le -- lu -- i -- a.}
+#+end_src
+
+[[./images/Communion-Hymn-en.png]]
+
+# #+LATEX: \selectlanguage{greek}
+# #+LATEX: Αἰνεῖτε τὸν Κύριον ἐκ τῶν οὐρανῶν. Αἰνεῖτε αὐτὸν ἐν τοῖς ὑψίστοις. Ἀλληλούϊα. Ἀλληλούϊα. Ἀλληλούϊα \\
+# #+LATEX: \selectlanguage{english}
+# #+LATEX: \emph{(E - ni - te ton Ky - ri - on ek ton ou-ra - non, e- -  ni - te af - ton en tis i - psi - stis. Al-li- lou-i - a. Al-li-lou-i - a. Al-li - lou - i - a.)}
+# #+HTML: <p>Αἰνεῖτε τὸν Κύριον ἐκ τῶν οὐρανῶν. Αἰνεῖτε αὐτὸν ἐν τοῖς ὑψίστοις. Ἀλληλούϊα. Ἀλληλούϊα. Ἀλληλούϊα<br/><i>(E - ni - te ton Ky - ri - on ek ton ou-ra - non, e- -  ni - te af - ton en tis i - psi - stis. Al-li- lou-i - a. Al-li-lou-i - a. Al-li - lou - i - a.)</i></p>
+# Music from DCS.
+#+begin_src lilypond :exports none :results none :file images/Communion-Hymn-gr.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 2/4
+  c4( d)
+  \time 4/4
+  e4( d c b8 d) | c4 r e( f) |
+  \time 6/4
+  g4( a) f( g) g4 r
+  \time 2/4
+  g4 g8( a)
+  \time 4/4
+  a2 b8( c b a) | b4( c2) r4 |
+  \time 2/4
+  g4( a)
+  \time 6/4
+  b8( d c4 bes a8 g) g4 r4 | f4( e8 d) d4 r4 e4( f8 g) |
+  \time 4/4
+  g2 e4( f) | e4.( d8 c d c4) | c4 r c c | d4( e f8 g f e) | e4.( d8 c d c4) | c2. r4 |
+}\addlyrics{Αἰ -- νεῖ -- τε τὸν Κύ -- ρι -- ον ἐκ τῶν οὐ -- ρα -- νῶν. Αἰ -- νεῖ -- τε αὐ -- τὸν ἐν τοῖς ὑ -- ψί -- στοις. Ἀλ -- λη -- λού -- ϊ -- α.}
+#+end_src
+
+[[./images/Communion-Hymn-gr.png]]
 
 /(The Priest partakes of the body and the blood of the Lord and he prepares the Holy Communion for the people)/
 
