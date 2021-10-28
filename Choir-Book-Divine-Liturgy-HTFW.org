@@ -1729,25 +1729,111 @@ O God, save Your people and bless Your inheritance.
 
 PEOPLE
 
-We have seen the light, the true light and have received the heavenly Spirit; we now have found the true faith, by our worshiping the undivided Trinity, Who has saved, saved us.
+# We have seen the light, the true light and have received the heavenly Spirit; we now have found the true faith, by our worshiping the undivided Trinity, Who has saved, saved us.
+#+begin_src lilypond :exports none :results none :file images/We-have-seen.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \partial 2 g2 | \time 4/4 g1 |
+  \time 4/4
+  g4 g g g | a2 g4( f) | e4( f) g4. g8 | a4 g g2 | b4( a) g f | f2 e2 |
+  g2 g4 g | a4 f e( f) | g2 g4 g | a4 g g g | a4 g g g | g4( f8 e f4) g | f2( e ) |
+  g4 g f2 | e1
+}\addlyrics{A -- men. We have seen the light, the true light and have re -- ceived the heav'n -- ly Spi -- rit;
+ we now have found the true faith, by our wor -- ship -- ping the un -- di -- vid -- ed Tri -- ni -- ty,
+ Who has saved us.}
+#+end_src
 
-#+LATEX: \selectlanguage{greek}
-#+LATEX: Εἴδομεν τὸ φῶς τὸ ἀληθινόν, ἐλάβομεν Πνεῦμα ἐπουράνιον, εὕρομεν πίστιν ἀληθῆ, ἀδιαίρετον Τριάδα προσκυνοῦντες, αὕτη γὰρ ἡμᾶς ἔσωσεν. \\
-#+LATEX: \selectlanguage{english}
-#+LATEX: \emph{(I-dho-men to fos to a - li-thi - non e - la-vo-men Pnev-ma e-pou - ra-ni-on, ev-ro-men pi-	stin a-li - thi a-dhi - e-re-ton Tri - a-da pro-ski- noon - des. Af-ti ghar i - mas e - so - sen.)}
-#+HTML: <p>Εἴδομεν τὸ φῶς τὸ ἀληθινόν, ἐλάβομεν Πνεῦμα ἐπουράνιον, εὕρομεν πίστιν ἀληθῆ, ἀδιαίρετον Τριάδα προσκυνοῦντες, αὕτη γὰρ ἡμᾶς ἔσωσεν.<br/><i>(I-dho-men to fos to a - li-thi - non e - la-vo-men Pnev-ma e-pou - ra-ni-on, ev-ro-men pi-	stin a-li - thi a-dhi - e-re-ton Tri - a-da pro-ski- noon - des. Af-ti ghar i - mas e - so - sen.)</i></p>
+[[./images/We-have-seen.png]]
+
+# #+LATEX: \selectlanguage{greek}
+# #+LATEX: Εἴδομεν τὸ φῶς τὸ ἀληθινόν, ἐλάβομεν Πνεῦμα ἐπουράνιον, εὕρομεν πίστιν ἀληθῆ, ἀδιαίρετον Τριάδα προσκυνοῦντες, αὕτη γὰρ ἡμᾶς ἔσωσεν. \\
+# #+LATEX: \selectlanguage{english}
+# #+LATEX: \emph{(I-dho-men to fos to a - li-thi - non e - la-vo-men Pnev-ma e-pou - ra-ni-on, ev-ro-men pi-	stin a-li - thi a-dhi - e-re-ton Tri - a-da pro-ski- noon - des. Af-ti ghar i - mas e - so - sen.)}
+# #+HTML: <p>Εἴδομεν τὸ φῶς τὸ ἀληθινόν, ἐλάβομεν Πνεῦμα ἐπουράνιον, εὕρομεν πίστιν ἀληθῆ, ἀδιαίρετον Τριάδα προσκυνοῦντες, αὕτη γὰρ ἡμᾶς ἔσωσεν.<br/><i>(I-dho-men to fos to a - li-thi - non e - la-vo-men Pnev-ma e-pou - ra-ni-on, ev-ro-men pi-	stin a-li - thi a-dhi - e-re-ton Tri - a-da pro-ski- noon - des. Af-ti ghar i - mas e - so - sen.)</i></p>
+#+begin_src lilypond :exports none :results none :file images/Eidomen-to-fws-2.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  g4 g g g | a2 g4 f | e4 f g4. g8 | a4 g g2 | b4 a g f | f e e2 |
+  g2 g4 g | a4 f e f | g2 g4 g | a4 g g g | a4 g g g | g4( f8 e f4 g) | f2( e ) |
+  \time 3/4
+  b'2 b4 | b2 g4 | a2. | g8( a g4) f4 | e2.
+}\addlyrics{Εἴ -- δο -- μεν τὸ φῶς τὸ ἀ -- λη -- θι -- νόν, ἐ -- λά -- βο -- μεν Πνεῦ -- μα ἐ -- που -- ρά -- νι -- ον, εὕ -- ρο -- μεν πί -- στιν ἀ -- λη -- θῆ, ἀ -- δι -- αί -- ρε -- τον Τρι -- ά -- δα προ -- σκυ -- νοῦ -- ντες, αὕ -- τη γὰρ ἡ -- μᾶς ἔ -- σω -- σεν.}
+#+end_src
+
+[[./images/Eidomen-to-fws-2.png]]
+
+#+begin_src lilypond :exports none :results none :file images/We-have-seen-FINAL.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  g4 g g g | a2 g4( f) | e4( f) g4. g8 | a4 g g2 | b4( a) g f | f2 e2 |
+  g2 g4 g | a4 f e( f) | g2 g4 g | a4 g g g | a4 g g g | g4( f8 e f4) g | f2( e ) |
+  \time 3/4
+  b'2 b4 | b2( g4 | a2.) | g4( f e f2 g4 a2.) | g2.  
+}\addlyrics{We have seen the light, the true light and have re -- ceived the heav'n -- ly Spi -- rit;
+ we now have found the true faith, by our wor -- ship -- ping the un -- di -- vid -- ed Tri -- ni -- ty,
+ Who has saved, __ saved __ us.}
+#+end_src
+
+[[./images/We-have-seen-FINAL.png]]
 
 PRIEST
 
 Always, now and forever and to the ages of ages.
 
+# PEOPLE
+
+# Amen.
+
 PEOPLE
 
-Amen.
+# Let our mouths be filled with Your praise, O Lord, that we may sing of Your glory. You have made us worthy to partake of Your holy mysteries. Keep us in Your holiness, that all the day long we may meditate upon Your righteousness. Alleluia. Alleluia. Alleluia.
+#+begin_src lilypond :exports none :results none :file images/Let-Our-Mouths.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \partial 2 g2 | \time 4/4 g1 |
+  \time 4/4
+  g4 g g g | a2 g4 f | g4( f) e( f) |g4 r 8 g g4 g | b4( a) g f | f2 e4 r |
+  f4 d e f | g4 g g g | b4( a) g g | \time 2/4 a4 g | \time 3/4 g8( a g4) f | \time 2/4 e4 r |
+  \time 4/4
+  g4 g g g | a4 g g f | e4 f g( a) | g4 r g g | b4 a g g | \time 2/4 g4 g | \time 3/4 g8( a g4) f |
+  \time 4/4
+  e4 r e f | g4 g g r | \time 2/4 g4 g | \time 4/4 a4 g g r | \time 2/4 g4 g |
+  \time 4/4
+  g4( f) e( g) | \slurDown f2( r4 g | aes2 g2) |
+}\addlyrics{A -- men. Let our mouths be filled with Your praise, O Lord, that we may sing of Your glo -- ry. You have made us wor -- thy to par -- take of Your ho -- ly mys -- ter -- ies. Keep us in Your ho -- li -- ness, that all the day long we may med -- i -- tate up -- on Your right -- eous -- ness. Al -- le -- lu -- i -- a. Al -- le -- lu -- i -- a. Al -- le -- lu -- i -- a.}
+#+end_src
 
-PEOPLE
-
-Let our mouths be filled with Your praise, O Lord, that we may sing of Your glory. You have made us worthy to partake of Your holy mysteries. Keep us in Your holiness, that all the day long we may meditate upon Your righteousness. Alleluia. Alleluia. Alleluia.
+[[./images/Let-Our-Mouths.png]]
 
 PRIEST
 
@@ -1755,7 +1841,8 @@ Let us be attentive. Having partaken of the divine, holy, pure, immortal, heaven
 
 PEOPLE
 
-Lord, have mercy.
+# Lord, have mercy.
+[[./images/LHM00.png]]
 
 PRIEST
 
@@ -1763,7 +1850,8 @@ Help us, save us, have mercy upon us, and protect us, O God, by Your grace.
 
 PEOPLE
 
-Lord, have mercy.
+# Lord, have mercy.
+[[./images/LHM00.png]]
 
 PRIEST
 
@@ -1771,7 +1859,8 @@ Having prayed for a perfect, holy, peaceful and sinless day, let us commit ourse
 
 PEOPLE
 
-To You, O Lord.
+# To You, O Lord.
+[[./images/TYOL00.png]]
 
 PRIEST
 
@@ -1779,7 +1868,8 @@ For You are our sanctification and to You we give glory, to the Father and the S
 
 PEOPLE
 
-Amen.
+# Amen.
+[[./images/Amen.png]]
 
 
 * THE DISMISSAL
@@ -1790,7 +1880,8 @@ Let us go forth in peace. Let us pray to the Lord.
 
 PEOPLE
 
-Lord, have mercy.
+# Lord, have mercy.
+[[./images/LHM00.png]]
 
 PRIEST
 
@@ -1798,21 +1889,74 @@ Lord, bless those who praise You and sanctify those who trust in You. Save Your 
 
 PEOPLE
 
-Amen.
+# Amen.
 
-#+LATEX: \selectlanguage{greek}
-#+LATEX: Εἴη τὸ ὄνομα Κυρίου εὐλογημένον ἀπὸ τοῦ νῦν καὶ ἕως τοῦ αἰῶνος. \\
-#+LATEX: \selectlanguage{english}
-#+LATEX: I-i to o-no-ma Ky - ri - ou ev-lo-yi - me-non a - po tou nin, ke e-os tou e - o-nos.
-#+HTML: <p>Εἴη τὸ ὄνομα Κυρίου εὐλογημένον ἀπὸ τοῦ νῦν καὶ ἕως τοῦ αἰῶνος.<br/><i>(I-i to o-no-ma Ky - ri - ou ev-lo-yi - me-non a - po tou nin, ke e-os tou e - o-nos.)</i></p>
+# #+LATEX: \selectlanguage{greek}
+# #+LATEX: Εἴη τὸ ὄνομα Κυρίου εὐλογημένον ἀπὸ τοῦ νῦν καὶ ἕως τοῦ αἰῶνος. \\
+# #+LATEX: \selectlanguage{english}
+# #+LATEX: I-i to o-no-ma Ky - ri - ou ev-lo-yi - me-non a - po tou nin, ke e-os tou e - o-nos.
+# #+HTML: <p>Εἴη τὸ ὄνομα Κυρίου εὐλογημένον ἀπὸ τοῦ νῦν καὶ ἕως τοῦ αἰῶνος.<br/><i>(I-i to o-no-ma Ky - ri - ou ev-lo-yi - me-non a - po tou nin, ke e-os tou e - o-nos.)</i></p>
+#+begin_src lilypond :exports none :results none :file images/Ein-To-Onoma-1.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \partial 2 g2 | \time 4/4 g1 |
+  \time 4/4
+  g2 g4 g | a4 g g g |
+  \time 6/4
+  g4( a) g e f g |
+  \time 4/4
+  a2 g2( g4) f e f | g2. g4 | a4 g g g |
+  \time 6/4
+  f2 e1 \bar "|"
+}\addlyrics{Ἀ -- μήν. Εἴ -- η τὸ | ὄ -- νο -- μα Κυ -- | ρί -- ου εὐ -- λο -- γη -- | μέ -- νον ἀ -- πὸ τοῦ | νῦν καὶ | ἕ -- ως τοῦ αἰ -- | ῶ -- νος.}\addlyrics{A -- min. I -- i to | o -- no -- ma Ki -- | ri -- u ev -- lo -- ghi -- | me -- non a -- po tu | nin ke | e -- os tu e -- | o -- nos.}
+#+end_src
 
-Blessed be the name of the Lord, from this time forth, forever and forever.
+[[./images/Ein-To-Onoma-1.png]]
 
-#+LATEX: \selectlanguage{greek}
-#+LATEX: Τὸ ὄνομα Κυρίου εὐλογημένον ἀπὸ τοῦ νῦν καὶ ἕως τοῦ αἰῶνος. \\
-#+LATEX: \selectlanguage{english}
-#+LATEX: \emph{(To o-no-ma Ky - ri - ou ev-lo-yi - me-non a - po tou nin, ke e-os tou e - o-nos.)}
-#+HTML: <p>Τὸ ὄνομα Κυρίου εὐλογημένον ἀπὸ τοῦ νῦν καὶ ἕως τοῦ αἰῶνος..<br/><i>(To o-no-ma Ky - ri - ou ev-lo-yi - me-non a - po tou nin, ke e-os tou e - o-nos.)</i></p>
+# Blessed be the name of the Lord, from this time forth, forever and forever.
+#+begin_src lilypond :exports none :results none :file images/Blessed-Be-The-Name-2.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 6/4 g2. g4 g g | \time 4/4 g4( a) g f | \time 6/4 g2. e4 f g | \time 4/4 a4 g g g | \time 6/4 f2 e1 \bar "|"
+}\addlyrics{Bless -- ed be the | name of the | Lord, from this time | forth and to the | a -- ges.}
+#+end_src
+
+[[./images/Blessed-Be-The-Name-2.png]]
+
+# #+LATEX: \selectlanguage{greek}
+# #+LATEX: Τὸ ὄνομα Κυρίου εὐλογημένον ἀπὸ τοῦ νῦν καὶ ἕως τοῦ αἰῶνος. \\
+# #+LATEX: \selectlanguage{english}
+# #+LATEX: \emph{(To o-no-ma Ky - ri - ou ev-lo-yi - me-non a - po tou nin, ke e-os tou e - o-nos.)}
+# #+HTML: <p>Τὸ ὄνομα Κυρίου εὐλογημένον ἀπὸ τοῦ νῦν καὶ ἕως τοῦ αἰῶνος..<br/><i>(To o-no-ma Ky - ri - ou ev-lo-yi - me-non a - po tou nin, ke e-os tou e - o-nos.)</i></p>
+#+begin_src lilypond :exports none :results none :file images/Ein-To-Onoma-3.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \partial 4 c4 | \time 6/4 g'4 g g g a g | g( a) g f g a | a4( b) b2. g4 | g4 a b2. g4 | \time 4/4 a4 g g g | \time 2/4 \slurDown g8( f e4) | \time 4/4 \slurDown f2.( g4 | \time 6/4 a2 g1) \bar "|."
+}\addlyrics{Τὸ ὄ -- νο -- μα Κυ -- ρί -- ου εἴ -- η εὐ -- λο -- γη -- μέ -- νον ἀ -- πὸ τοῦ νῦν καὶ ἕ -- ως τοῦ αἰ -- ῶ -- νος. __}\addlyrics{To o -- no -- ma Ki -- ri -- u i -- i ev -- lo -- ghi -- me -- non a -- po tu nin ke e -- os tu e -- o -- nos. __}
+#+end_src
+
+[[./images/Ein-To-Onoma-3.png]]
 
 PRIEST
 
@@ -1820,7 +1964,25 @@ Let us pray to the Lord.
 
 PEOPLE
 
-Lord, have mercy. Lord, have mercy. Lord, have mercy. Father give the blessing.
+# Lord, have mercy. Lord, have mercy. Lord, have mercy. Father give the blessing.
+#+begin_src lilypond :exports none :results none :file images/LHM3-Father-Bless.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  g4 g g g | g4 g g g | g4 g g g |
+  \time 4/4
+  a4 g fis e | g4 g2. |
+}\addlyrics{Lord, have mer -- cy. Lord, have mer -- cy. Lord, have mer -- cy. Fa -- ther give the bles -- sing.}
+#+end_src
+
+[[./images/LHM3-Father-Bless.png]]
 
 PRIEST
 
@@ -1828,20 +1990,48 @@ May the blessing of the Lord and His mercy come upon you through His divine 	gra
 
 PEOPLE
 
-Amen.
+# Amen.
+[[./images/Amen.png]]
 
 PRIEST
 
 Glory to You, O Christ, our hope, glory to you.
 
 May Christ our true God (who is risen from the dead), as a good, loving and merciful God, have mercy upon us and save us, through the intercessions of His most pure and holy Mother; the power of the precious and life giving Cross; the protection of the honorable, bodiless powers of heaven, the supplications of the honorable, glorious prophet and forerunner John the Baptist; the holy, glorious and praiseworthy apostles; the holy, glorious and triumphant martyrs; our holy and God-bearing Fathers; the holy and righteous ancestors Joachim and Anna; Saint (of the day) whose memory we commemorate today, and all the saints.
-PEOPLE
-
-Amen.
 
 PEOPLE
 
-*(softly)* Unto the one who blesses us and sanctifies us with God’s grace, Lord 	keep him in Your care, many years unto him.
+*(softly)*
+# Unto the one who blesses us and sanctifies us with God’s grace, Lord 	keep him in Your care, many years unto him.
+# From the New Green Book
+#+begin_src lilypond :exports none :results none :file images/Ton-Eulogounta.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 3/4
+  g4 g g
+  \time 4/4
+  e4( f g a) | g4. g8 g4 g | b4 a g f | g1 | g2 g8( f) e4 |
+  \time 6/4
+  f4 g g2 g4 g
+  \time 4/4
+  b4( a) g8( f e4)
+  f2.( g4 \time 6/4 a2 g1)
+}\addlyrics{Τὸν εὐ -- λο -- γοῦν -- τα καὶ ἁ -- γι -- ά -- ζον -- τα ἡ -- μᾶς, Κύ -- ρι -- ε, φύ -- λατ -- τε εἰς πολ -- λὰ ἔ -- τη.}
+#+end_src
+
+[[./images/Ton-Eulogounta.png]]
+
+PEOPLE
+
+# Amen.
+[[./images/Amen.png]]
 
 PRIEST
 
@@ -1849,4 +2039,6 @@ Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy 
 
 PEOPLE
 
-Amen.
+# Amen.
+[[./images/Big-Amen.png]]
+
