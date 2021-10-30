@@ -442,9 +442,26 @@ scoreTitleMarkup=##f
   \override Staff.TimeSignature #'stencil = ##f
   \key f \major
   \time 4/4
-  f2 f4 f | f4 c c2 | bes'2 a4 g | \time 3/4 g2( f4 | \time 4/4 e2 d4 e | f1)
+  f2 f4 f | f4 c c2 | a'2 g4 g | f2. r4
 }\addlyrics{Glo -- ry to You, O Lord, glo -- ry to You. __}
 #+end_src
+
+# #+begin_src lilypond :exports none :results none :file images/glory-gospel-2.png :noweb yes
+# <<lpsnippet()>>
+# \layout {
+#   indent = #0
+#   line-width = #120
+#   ragged-last = ##t
+# }
+# %\markup { \override #'(line-width . 68.5) \fill-line { \null \null \teeny "(Old Green Book)" } }
+# \relative f' {
+#   \textLengthOn
+#   \override Staff.TimeSignature #'stencil = ##f
+#   \key f \major
+#   \time 4/4
+#   f2 f4 f | f4 c c2 | bes'2 a4 g | \time 3/4 g2( f4 | \time 4/4 e2 d4 e | f1)
+# }\addlyrics{Glo -- ry to You, O Lord, glo -- ry to You. __}
+# #+end_src
 
 #+begin_src lilypond :exports none :results none :file images/GTOL00.png :noweb yes
 <<lpsnippet()>>
@@ -522,7 +539,7 @@ Help us, save us, have mercy on us, and protect us, O God, by Your grace.
 
 [[./images/LHM00.png]]
 
-Commemorating our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
+Remembering our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
 
 [[./images/TYOL00.png]]
 
@@ -534,7 +551,7 @@ For to You belong all glory, honor, and worship, to the Father and to the Son an
 
 * FIRST ANTIPHON
 
-CHOIR
+PEOPLE
 
 /(We intone the verses which are written prior to each refrain. These verses are the standard Psalm verses appointed for a regular Sunday; but note that the appointed Psalm verses may change for special feasts or if a non-Sunday Liturgy.)/
 
@@ -577,7 +594,7 @@ PRIEST
 # /(Lord, have mercy.)/
 [[./images/KE00.png]]
 
-# Commemorating our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
+# Remembering our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
 Τῆς Παναγίας ἀχράντου, ὑπερευλογημένης, ἐνδόξου Δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν Ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.
 
 # /(To You, O Lord.)/
@@ -593,7 +610,7 @@ PRIEST
 
 * SECOND ANTIPHON
 
-CHOIR
+PEOPLE
 
 /(We intone the verses which are written prior to each refrain. These verses are the standard Psalm verses appointed for a regular Sunday; but note that the appointed Psalm verses may change for special feasts or if a non-Sunday Liturgy.)/
 
@@ -616,7 +633,7 @@ The Lord shall reign forever; your God, O Zion, to all generations.
 # Save us, O Son of God, risen from the dead. We sing to You, Alleluia.
 [[./images/second-antiphon-en.png]]
 
-CHOIR
+PEOPLE
 
 # Glory to the Father and the Son and the Holy Spirit.
 # Both now and ever and to the ages of ages. Amen.
@@ -645,7 +662,7 @@ Help us, save us, have mercy on us, and protect us, O God, by Your grace.
 # /(Lord, have mercy.)/
 [[./images/LHM00.png]]
 
-Commemorating our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
+Remembering our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
 
 # /(To You, O Lord.)/
 [[./images/TYOL00.png]]
@@ -663,7 +680,7 @@ For You, O God, are good and love mankind, and to You we offer glory, to the Fat
 
 PRIEST
 
-Wisdom. Let us be attentive.
+Σοφία. Ὀρθοί. Wisdom. Let us be attentive.
 
 PEOPLE
 
@@ -761,9 +778,15 @@ PEOPLE
 
 PRIEST
 
-Let us be attentive.
+Let us be attentive.  Peace be with you all.
 
-/(The Reader reads the verses from the Psalms.)/
+PEOPLE
+
+[[./images/AWYS.png]]
+
+READER
+
+/(The Reader reads the Prokeimenon verses.)/
 
 PRIEST
 
@@ -777,11 +800,17 @@ PRIEST
 
 Let us be attentive.
 
+READER
+
 /(The Reader reads the designated apostolic lesson of the day)/
 
 PRIEST
 
-Peace be with you.
+Peace be with you, Reader.
+
+READER
+
+And with your spirit.
 
 PEOPLE
 
@@ -841,9 +870,19 @@ PEOPLE
 /(I - ta che - rou - vim, my-sti - kos i-ko-ni- zon-des, ke ti zo-o-pi - o Tri-a-thi Tri-a-a-a-  thi-i-ton Trisa-gi-on i-mnon-pro-sa-thon-tes pa-san-tin vi-o-ti-kin a-po-tho-me-Tha pa-san me-ti-mna-an os ton va-si-le-a ton o-lon i-po-tho-xo-me-ni.)/
 
 # Old Green Book:
-We who mystically represent the Cherubim, represent the Cherubim and we sing, we sing unto the life giving Trinity, the Trinity, the Trinity, Trinity, the Trinity the thrice holy hymn, we sing the thrice holy hymn. Let us lay aside the cares, all the cares of this life, all the cares of this life that we may receive the King, receive the King of all.
+# We who mystically represent the Cherubim, represent the Cherubim and we sing, we sing unto the life giving Trinity, the Trinity, the Trinity, Trinity, the Trinity the thrice holy hymn, we sing the thrice holy hymn. Let us lay aside the cares, all the cares of this life, all the cares of this life that we may receive the King, receive the King of all.
+
+Let us who mystically represent the cherubim, and who sing the thrice holy hymn to the life creating trinity, now lay aside every worldly care, so that we may receive the King of All.
 
 # DEACON
+PRIEST
+
+Πάντων ἡμῶν μνησθείη Κύριος ὁ Θεὸς ἐν τῇ Βασιλείᾳ Αὐτοῦ, πάντοτε, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.
+
+PEOPLE
+
+Ἀμήν. (A-min)  /(Pitched with priest.)/
+
 PRIEST
 
 May the Lord God remember all of you in His kingdom, now and forever and to the ages of ages.
@@ -852,9 +891,12 @@ May the Lord God remember all of you in His kingdom, now and forever and to the 
 
 PEOPLE
 
-Amen.
+Amen.  /(Re-pitched to Cherubic Hymn conclusion.)/
 # Old Green Book:
 Invisibly escorted by angelic hosts, angelic hosts. Alleluia. Alleluia. Alleluia.
+
+Ταῖς ἀγγελικαῖς ἀοράτως δορυφορούμενον τάξεσιν. Ἀλληλούϊα. Ἀλληλούϊα. Ἀλληλούϊα. \\
+/(Tes angelikes aoratos thoriforumenon taxesin. Alliluia. Alliluia. Alliluia.)/
 
 /(After placing the holy gifts on the holy Table, the priest says:)/
 
@@ -918,7 +960,7 @@ And let us ask for a Christian end to our life, peaceful, without shame and suff
 [[./images/GTOL00.png]]
 # /(Grant this, O Lord.)/
 
-Commemorating our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
+Remembering our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
 
 [[./images/TYOL00.png]]
 # /(To You, O Lord.)/
@@ -929,16 +971,16 @@ PRIEST
 
 Through the mercies of Your only begotten Son, with Whom You are blessed, together with Your all-holy, good, and life-creating Spirit, now and forever and to the ages of ages.
 
-CHOIR
+PEOPLE
 
 # Amen.
 [[./images/Amen.png]]
 
 PRIEST
 
-Peace be with all.
+Εἰρήνη πᾶσι.  Peace be with all.
 
-CHOIR
+PEOPLE
 
 # And with your spirit.
 [[./images/AWYS.png]]
@@ -947,7 +989,7 @@ DEACON
 
 Let us love one another, that with oneness of mind we may confess:
 
-CHOIR
+PEOPLE
 
 # Father, Son, and Holy Spirit: Trinity, one in essence and undivided.
 #+begin_src lilypond :exports none :results none :file images/FSHS.png :noweb yes
@@ -1046,7 +1088,7 @@ DEACON
 
 Let us stand aright! Let us stand in awe! Let us be attentive, that we may present the Holy Offering in peace.
 
-CHOIR
+PEOPLE
 
 # A mercy of peace, a sacrifice of praise.
 #+begin_src lilypond :exports none :results none :file images/AMOP.png :noweb yes
@@ -1072,7 +1114,7 @@ PRIEST
 
 The grace of our Lord Jesus Christ, and the love of God and Father, and the communion of the Holy Spirit, be with you all.
 
-CHOIR
+PEOPLE
 
 # And with your spirit.
 #+begin_src lilypond :exports none :results none :file images/AWYS-Anafora.png :noweb yes
@@ -1096,7 +1138,7 @@ PRIEST
 
 Let us lift up our hearts.
 
-CHOIR
+PEOPLE
 
 # We lift them up to the Lord.
 #+begin_src lilypond :exports none :results none :file images/Lift-to-the-Lord.png :noweb yes
@@ -1120,7 +1162,7 @@ PRIEST
 
 Let us give thanks to the Lord.
 
-CHOIR
+PEOPLE
 
 # It is proper and right.
 #+begin_src lilypond :exports none :results none :file images/Proper-and-right.png :noweb yes
@@ -1365,14 +1407,14 @@ PEOPLE
   g4
   \time 4/4
   g4 g a2 | g1
-}\addlyrics{And all your peo -- ple.}
+}\addlyrics{And all Your peo -- ple.}
 #+end_src
 
 [[./images/AAYP.png]]
 
-PRIEST
+# PRIEST
 
-Remember, Lord, the city in which we live, every city and country, and the faithful who dwell in them. Remember, Lord, the travelers, the sick, the suffering, and the captives, granting them protection and salvation. Remember, Lord, those who do charitable work, who serve in Your holy churches, and who care for the poor. And send Your mercy upon us all.
+# Remember, Lord, the city in which we live, every city and country, and the faithful who dwell in them. Remember, Lord, the travelers, the sick, the suffering, and the captives, granting them protection and salvation. Remember, Lord, those who do charitable work, who serve in Your holy churches, and who care for the poor. And send Your mercy upon us all.
 
 PRIEST
 
@@ -1380,7 +1422,7 @@ And grant that with one voice and one heart we may glorify and praise Your most 
 
 PEOPLE
 
-#Amen.
+# Amen.
 [[./images/Amen.png]]
 
 PRIEST
@@ -1428,9 +1470,9 @@ PEOPLE
 # To You, O Lord.
 [[./images/TYOL00.png]]
 
-PRIEST
+# PRIEST
 
-We entrust to You, loving Master, our whole life and hope, and we ask, pray, and entreat: make us worthy to partake of your heavenly and awesome Mysteries from this holy and spiritual Table with a clear conscience; for the remission of sins, forgiveness of transgressions, communion of the Holy Spirit, inheritance of the kingdom of heaven, confidence before You, and not in judgment or condemnation.
+# We entrust to You, loving Master, our whole life and hope, and we ask, pray, and entreat: make us worthy to partake of your heavenly and awesome Mysteries from this holy and spiritual Table with a clear conscience; for the remission of sins, forgiveness of transgressions, communion of the Holy Spirit, inheritance of the kingdom of heaven, confidence before You, and not in judgment or condemnation.
 
 PRIEST
 
@@ -1512,6 +1554,22 @@ Danos hoy nuestro pan de cada día. \\
 Perdona nuestras ofensas, así como también nosotros perdonamos a los que nos ofenden. \\
 No nos dejes caer en la tentación y líbranos del mal.
 
+/Albanian/
+
+Ati yne qe je ne qiell u shenjterofte emri yt .Ardhte mbreteria jote.U befte deshira jote
+si ne qiell ashtu edhe mbi dhe .Buken tone te perditshme jepna neve sot .Dhe falna
+fajet tona sikurse edhe ne ua falim fajtoreve tane. Dhe mos na shtjer ne ngasje po
+shpetona nga i ligu . Amin.
+
+/Arabic/
+
+[[./images/arabic-our-father.png]]
+
+Abana alathie fi asamawat, li yatakadas ismok, li ya’atie malakotok, litakon mashia
+tok, kama fisama’ kathaleka ala al ard. A’atinia khubzana kafafa yawmina, wa igfer
+lana khatayana, kama nahnu naghfer la man akhta’a elayna, wa la tudkhilna fit a
+jareeb; laken najjina min ashireer.
+
 /Slavonic/
 
 Оч͠е нашь ижє ѥси на н͠бсєхъ . да с͠титьсѧ имѧ \\
@@ -1545,7 +1603,7 @@ For Yours is the Kingdom and the power and the glory, of the Father and of the S
 # /(Amen.)/
 [[./images/Amen.png]]
 
-Peace be with all.
+Εἰρήνη πᾶσι.  Peace be with all.
 
 # /(And with your spirit.)/
 [[./images/AWYS.png]]
@@ -1557,11 +1615,11 @@ Let us bow our heads to the Lord.
 # /(To You, O Lord.)/
 [[./images/TYOL00.png]]
 
-PRIEST (read)
+# PRIEST (read)
 
-We give thanks to You, invisible King. By Your infinite power You created all things and by Your great mercy You brought everything from nothing into being. Master, look down from heaven upon those who have bowed their heads before You; they have bowed not before flesh and blood, but before You the awesome God. Therefore, Master, guide the course of our life for our benefit according to the need of each of us. Sail with those who sail; travel with those who travel; and heal the sick, Physician of our souls and bodies.
+# We give thanks to You, invisible King. By Your infinite power You created all things and by Your great mercy You brought everything from nothing into being. Master, look down from heaven upon those who have bowed their heads before You; they have bowed not before flesh and blood, but before You the awesome God. Therefore, Master, guide the course of our life for our benefit according to the need of each of us. Sail with those who sail; travel with those who travel; and heal the sick, Physician of our souls and bodies.
 
-PRIEST (intoned)
+PRIEST
 
 By the grace, mercy, and love for us of Your only begotten Son, with whom You are blessed, together with Your all holy, good, and life giving Spirit, now and forever and to the ages of ages.
 
@@ -1572,11 +1630,11 @@ PEOPLE
 
 * HOLY COMMUNION
 
-PRIEST (read)
+# PRIEST (read)
 
-Lord Jesus Christ, our God, hear us from Your holy dwelling place and from the glorious throne of Your kingdom. You are enthroned on high with the Father and are also invisibly present among us. Come and sanctify us, and let Your pure Body and precious Blood be given to us by Your mighty hand and through us to all Your people.
+# Lord Jesus Christ, our God, hear us from Your holy dwelling place and from the glorious throne of Your kingdom. You are enthroned on high with the Father and are also invisibly present among us. Come and sanctify us, and let Your pure Body and precious Blood be given to us by Your mighty hand and through us to all Your people.
 
-PRIEST (intoned)
+PRIEST
 
 Let us be attentive.
 
