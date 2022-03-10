@@ -88,6 +88,40 @@ scoreTitleMarkup=##f
 }\addlyrics{Lord, have mer- cy}
 #+end_src
 
+#+begin_src lilypond :exports none :results none :file images/LHM01.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  g4 g a2 | g1
+}\addlyrics{Lord, have mer- cy}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/LHM02.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  g2( a4) b
+  \time 6/4
+  c4( a) g1
+}\addlyrics{Lord, have mer- cy}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/LHM03.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  g4( f e) a
+  \time 6/4
+  g4( f) e1
+}\addlyrics{Lord, have mer- cy}
+#+end_src
+
 #+begin_src lilypond :exports none :results none :file images/KE00.png :noweb yes
 <<lpsnippet()>>
 \relative c'' {
@@ -98,6 +132,40 @@ scoreTitleMarkup=##f
   \time 6/4
   g4 g g1
 }\addlyrics{Κύ -- ρι -- ε, 'λέ -- η -- σον}\addlyrics{Ky -- ri -- e, 'le -- i -- son}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/KE01.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  \tuplet 3/2 {g4 g g} a4 a | g1
+}\addlyrics{Κύ -- ρι -- ε, 'λέ -- η -- σον}\addlyrics{Ky -- ri -- e, 'le -- i -- son}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/KE02.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  g4 g a b
+  \time 6/4
+  c4 a g1
+}\addlyrics{Κύ -- ρι -- ε, ε -- λέ -- η -- σον}\addlyrics{Ky -- ri -- e, e -- le -- i -- son}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/KE03.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  g4 f e a
+  \time 6/4
+  g4 f e1
+}\addlyrics{Κύ -- ρι -- ε, ε -- λέ -- η -- σον}\addlyrics{Ky -- ri -- e, e -- le -- i -- son}
 #+end_src
 
 #+begin_src lilypond :exports none :results none :file images/TYOL00.png :noweb yes
@@ -112,6 +180,18 @@ scoreTitleMarkup=##f
 }\addlyrics{To You, O Lord}
 #+end_src
 
+#+begin_src lilypond :exports none :results none :file images/TYOL01.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 2/4
+  a2
+  \time 4/4
+  g2 f | e1
+}\addlyrics{To You, O Lord}
+#+end_src
+
 #+begin_src lilypond :exports none :results none :file images/SK00.png :noweb yes
 <<lpsnippet()>>
 \relative c'' {
@@ -121,6 +201,18 @@ scoreTitleMarkup=##f
   g2
   \time 4/4
   a2 a | g1
+}\addlyrics{Σοί, Κύ -- ρι -- ε.}\addlyrics{Si, Ky -- ri -- e.}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/SK01.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 2/4
+  a2
+  \time 4/4
+  g2 f | e1
 }\addlyrics{Σοί, Κύ -- ρι -- ε.}\addlyrics{Si, Ky -- ri -- e.}
 #+end_src
 
@@ -484,6 +576,40 @@ scoreTitleMarkup=##f
 }\addlyrics{Grant this, O Lord}
 #+end_src
 
+#+begin_src lilypond :exports none :results none :file images/GTOL01.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  g2 a4 a | g1
+}\addlyrics{Grant this, O Lord}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/GTOL02.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  g2( a4 b)
+  \time 6/4
+  c4 a g1
+}\addlyrics{Grant this, O Lord}
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/GTOL03.png :noweb yes
+<<lpsnippet()>>
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  g4( f e a)
+  \time 6/4
+  g4 f e1
+}\addlyrics{Grant this, O Lord}
+#+end_src
+
 
 (For use at Holy Trinity Greek Orthodox parish, Fort Wayne, Indiana.)
 
@@ -502,55 +628,55 @@ PRIEST
 
 In peace, let us pray to the Lord.
 
-[[./images/LHM00.png]]
+[[./images/LHM01.png]]
 
 For the peace from above and for the salvation of our souls, let us pray to the Lord.
 
-[[./images/LHM00.png]]
+[[./images/LHM02.png]]
 
 For the peace of the whole world, for the stability of the holy churches of God, and for the unity of all, let us pray to the Lord.
 
-[[./images/LHM00.png]]
+[[./images/LHM03.png]]
 
 For this holy house and for those who enter it with faith, reverence, and the fear of God, let us pray to the Lord.
 
-[[./images/LHM00.png]]
+[[./images/LHM01.png]]
 
 For pious and Orthodox Christians, let us pray to the Lord.
 
-[[./images/LHM00.png]]
+[[./images/LHM02.png]]
 
 For (episcopal rank) (name), for the honorable presbyterate, for the diaconate in Christ, and for all the clergy and the people, let us pray to the Lord.
 
-[[./images/LHM00.png]]
+[[./images/LHM03.png]]
 
 For our country, for the president, and for all in public service, let us pray to the Lord.
 
-[[./images/LHM00.png]]
+[[./images/LHM01.png]]
 
 For this city, and for every city and land, and for the faithful who live in them, let us pray to the Lord.
 
-[[./images/LHM00.png]]
+[[./images/LHM02.png]]
 
 For favorable weather, for an abundance of the fruits of the earth, and for peaceful times, let us pray to the Lord.
 
-[[./images/LHM00.png]]
+[[./images/LHM03.png]]
 
 For those who travel by land, sea, and air, for the sick, the suffering, the captives and for their salvation, let us pray to the Lord.
 
-[[./images/LHM00.png]]
+[[./images/LHM01.png]]
 
 For our deliverance from all affliction, wrath, danger and distress, and from the peril of the coronavirus against us, let us pray to the Lord.
 
-[[./images/LHM00.png]]
+[[./images/LHM02.png]]
 
 Help us, save us, have mercy on us, and protect us, O God, by Your grace.
 
-[[./images/LHM00.png]]
+[[./images/LHM03.png]]
 
 Remembering our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
 
-[[./images/TYOL00.png]]
+[[./images/TYOL01.png]]
 
 PRIEST
 
@@ -595,19 +721,19 @@ PRIEST
 Ἔτι καὶ ἔτι ἐν εἰρήνῃ τοῦ Κυρίου δεηθῶμεν.
 
 # /(Lord, have mercy.)/
-[[./images/KE00.png]]
+[[./images/KE01.png]]
 
 # Help us, save us, have mercy on us, and protect us, O God, by Your grace.
 Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς ὁ Θεὸς τῇ σῇ χάριτι.
 
 # /(Lord, have mercy.)/
-[[./images/KE00.png]]
+[[./images/KE02.png]]
 
 # Remembering our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
 Τῆς Παναγίας ἀχράντου, ὑπερευλογημένης, ἐνδόξου Δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν Ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.
 
 # /(To You, O Lord.)/
-[[./images/SK00.png]]
+[[./images/SK01.png]]
 
 PRIEST
 
@@ -664,17 +790,17 @@ PRIEST
 Again and again, in peace, let us pray to the Lord.
 
 # /(Lord, have mercy.)/
-[[./images/LHM00.png]]
+[[./images/LHM01.png]]
 
 Help us, save us, have mercy on us, and protect us, O God, by Your grace.
 
 # /(Lord, have mercy.)/
-[[./images/LHM00.png]]
+[[./images/LHM02.png]]
 
 Remembering our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
 
 # /(To You, O Lord.)/
-[[./images/TYOL00.png]]
+[[./images/TYOL01.png]]
 
 PRIEST
 
@@ -716,7 +842,7 @@ PRIEST
 # #+HTML: <p><i>(Κύριε, ἐλέησον.)</i><br/>
 # #+HTML: <i>(Ky - ri - e, - 'le - i – son)</i></p>
 
-[[./images/KE00.png]]
+[[./images/KE01.png]]
 
 #+LATEX: \selectlanguage{greek}
 #+LATEX: Ὅτι Ἅγιος εἶ ὁ Θεὸς ἡμῶν, καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ Ἁγίῳ Πνεύματι, νῦν καὶ ἀεί καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων. \\[1em]
@@ -916,62 +1042,62 @@ PRIEST
 
 Let us complete our prayer to the Lord.
 
-[[./images/LHM00.png]]
+[[./images/LHM01.png]]
 # /(Lord, have mercy.)/
 
 For the precious Gifts here presented, let us pray to the Lord.
 
-[[./images/LHM00.png]]
+[[./images/LHM02.png]]
 # /(Lord, have mercy.)/
 
 For this holy house and for those who enter it with faith, reverence, and the fear of God, let us pray to the Lord.
 
-[[./images/LHM00.png]]
+[[./images/LHM03.png]]
 # /(Lord, have mercy.)/
 
 For our deliverance from all affliction, wrath, danger, and necessity, let us pray to the Lord.
 
-[[./images/LHM00.png]]
+[[./images/LHM01.png]]
 # /(Lord, have mercy.)/
 
 Help us, save us, have mercy on us, and protect us, O God, by Your grace.
 
-[[./images/LHM00.png]]
+[[./images/LHM02.png]]
 # /(Lord, have mercy.)/
 
 That the whole day may be perfect, holy, peaceful, and sinless, let us ask the Lord.
 
-[[./images/GTOL00.png]]
+[[./images/GTOL01.png]]
 # /(Grant this, O Lord.)/
 
 For an angel of peace, a faithful guide, a guardian of our souls and bodies, let us ask the Lord.
 
-[[./images/GTOL00.png]]
+[[./images/GTOL02.png]]
 # /(Grant this, O Lord.)/
 
 For pardon and remission of our sins and transgressions, let us ask the Lord.
 
-[[./images/GTOL00.png]]
+[[./images/GTOL03.png]]
 # /(Grant this, O Lord.)/
 
 For that which is good and beneficial for our souls, and for peace for the world, let us ask the Lord.
 
-[[./images/GTOL00.png]]
+[[./images/GTOL01.png]]
 # /(Grant this, O Lord.)/
 
 That we may complete the remaining time of our life in peace and repentance, let us ask the Lord.
 
-[[./images/GTOL00.png]]
+[[./images/GTOL02.png]]
 # /(Grant this, O Lord.)/
 
 And let us ask for a Christian end to our life, peaceful, without shame and suffering, and for a good defense before the awesome judgment seat of Christ.
 
-[[./images/GTOL00.png]]
+[[./images/GTOL03.png]]
 # /(Grant this, O Lord.)/
 
 Remembering our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
 
-[[./images/TYOL00.png]]
+[[./images/TYOL01.png]]
 # /(To You, O Lord.)/
 
 ** THE PRAYER OF THE PROSKOMIDE
@@ -1174,7 +1300,7 @@ Let us give thanks to the Lord.
 PEOPLE
 
 # It is proper and right.
-#+begin_src lilypond :exports none :results none :file images/Proper-and-right.png :noweb yes
+#+begin_src lilypond :exports none :results none :file images/Proper-and-right-orig.png :noweb yes
 <<lpsnippet()>>
 \layout {
   indent = #0
@@ -1186,6 +1312,21 @@ PEOPLE
   \override Staff.TimeSignature #'stencil = ##f
   \time 3/4
   f2 e4 | d4 e f | e2.( d c)
+}\addlyrics{It is pro -- per and right.}
+#+end_src
+#+begin_src lilypond :exports none :results none :file images/Proper-and-right.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 3/4
+  f2 e4 | d4 e f |
+  \time 4/4 e2( d2 | \time 3/4 c2.)
 }\addlyrics{It is pro -- per and right.}
 #+end_src
 
@@ -1450,7 +1591,7 @@ Having remembered all the saints, let us again in peace pray to the Lord.
 PEOPLE
 
 # Lord, have mercy.
-[[./images/LHM00.png]]
+[[./images/LHM01.png]]
 
 PRIEST
 
@@ -1459,7 +1600,7 @@ For the precious Gifts offered and consecrated, let us pray to the Lord.
 PEOPLE
 
 # Lord, have mercy.
-[[./images/LHM00.png]]
+[[./images/LHM02.png]]
 
 PRIEST
 
@@ -1468,7 +1609,7 @@ That our loving God who has received them at His holy, heavenly, and spiritual a
 PEOPLE
 
 # Lord, have mercy.
-[[./images/LHM00.png]]
+[[./images/LHM03.png]]
 
 PRIEST
 
@@ -1477,7 +1618,7 @@ Having prayed for the unity of the faith and for the communion of the Holy Spiri
 PEOPLE
 
 # To You, O Lord.
-[[./images/TYOL00.png]]
+[[./images/TYOL01.png]]
 
 # PRIEST
 
@@ -1622,7 +1763,7 @@ For Yours is the Kingdom and the power and the glory, of the Father and of the S
 Let us bow our heads to the Lord.
 
 # /(To You, O Lord.)/
-[[./images/TYOL00.png]]
+[[./images/TYOL01.png]]
 
 # PRIEST (read)
 
@@ -1909,7 +2050,7 @@ Let us be attentive. Having partaken of the divine, holy, pure, immortal, heaven
 PEOPLE
 
 # Lord, have mercy.
-[[./images/LHM00.png]]
+[[./images/LHM01.png]]
 
 PRIEST
 
@@ -1918,7 +2059,7 @@ Help us, save us, have mercy upon us, and protect us, O God, by Your grace.
 PEOPLE
 
 # Lord, have mercy.
-[[./images/LHM00.png]]
+[[./images/LHM02.png]]
 
 PRIEST
 
@@ -1927,7 +2068,7 @@ Having prayed for a perfect, holy, peaceful and sinless day, let us commit ourse
 PEOPLE
 
 # To You, O Lord.
-[[./images/TYOL00.png]]
+[[./images/TYOL01.png]]
 
 PRIEST
 
@@ -1948,7 +2089,7 @@ Let us go forth in peace. Let us pray to the Lord.
 PEOPLE
 
 # Lord, have mercy.
-[[./images/LHM00.png]]
+[[./images/LHM01.png]]
 
 PRIEST
 
@@ -2043,9 +2184,9 @@ PEOPLE
   \textLengthOn
   \override Staff.TimeSignature #'stencil = ##f
   \time 4/4
-  g4 g g g | g4 g g g | g4 g g g |
+  g4 g g g | g4 g g g | g4 g g g\fermata |
   \time 4/4
-  a4 g fis e | g4 g2. |
+  a4 g f e | g4 g2. |
 }\addlyrics{Lord, have mer -- cy. Lord, have mer -- cy. Lord, have mer -- cy. Fa -- ther give the bles -- sing.}
 #+end_src
 
@@ -2092,8 +2233,31 @@ PEOPLE
   f2.( g4 \time 6/4 a2 g1)
 }\addlyrics{Τὸν εὐ -- λο -- γοῦν -- τα καὶ ἁ -- γι -- ά -- ζον -- τα ἡ -- μᾶς, Κύ -- ρι -- ε, φύ -- λατ -- τε εἰς πολ -- λὰ ἔ -- τη.}
 #+end_src
+#+begin_src lilypond :exports none :results none :file images/Ton-Eulogounta-old-green-book.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c'' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 3/4
+  g4 g g
+  \time 4/4
+  e4( f g a) | g4. g8 g4 g | b4 a g fis |
+  \time 2/4 g2 |
+  \time 4/4
+  g2 g8( f) e4 |
+  b'4 a g2 |
+  g4 g b( a) |
+  g4( f8 e f4 g) |
+  f2( e2)\fermata
+}\addlyrics{Τὸν εὐ -- λο -- γοῦν -- τα καὶ ἁ -- γι -- ά -- ζον -- τα ἡ -- μᾶς, Κύ -- ρι -- ε, φύ -- λατ -- τε εἰς πολ -- λὰ ἔ -- τη.}
+#+end_src
 
-[[./images/Ton-Eulogounta.png]]
+[[./images/Ton-Eulogounta-old-green-book.png]]
 
 PEOPLE
 
