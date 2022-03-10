@@ -14,6 +14,11 @@
 #+LATEX_HEADER: \usepackage[utf8]{inputenc}
 #+LATEX_HEADER: \usepackage[greek, english]{babel}
 #+LATEX_HEADER: \usepackage[LGR,T1]{fontenc}
+
+#+LATEX_HEADER: \newcommand{\amenone}{\begin[staffsize=25]{lilypond}
+#+LATEX_HEADER: <<Amen()>>
+#+LATEX_HEADER: \end{lilypond}}
+
 #+HTML_HEAD: <style type="text/css">
 #+HTML_HEAD:   <!--/*--><![CDATA[/*><!--*/
 #+HTML_HEAD:   body { font-size: 16px; }
@@ -44,10 +49,6 @@ scoreTitleMarkup=##f
   g1
 }\\addlyrics{A- men}"
 #+end_src
-
-\newcommand{\amenone}{\begin[staffsize=25]{lilypond}
-<<Amen()>>
-\end{lilypond}}
 
 #+begin_src lilypond :exports none :results none :file images/Amen.png :noweb yes
 <<lpsnippet()>>
