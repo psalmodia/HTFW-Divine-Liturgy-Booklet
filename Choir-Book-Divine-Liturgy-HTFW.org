@@ -1949,12 +1949,11 @@ PEOPLE
 \relative c'' {
   \textLengthOn
   \override Staff.TimeSignature #'stencil = ##f
-  \partial 2 g2 | \time 4/4 g1 |
   \time 4/4
   g4 g g g | a2 g4( f) | e4( f) g4. g8 | a4 g g2 | b4( a) g f | f2 e2 |
   g2 g4 g | a4 f e( f) | g2 g4 g | a4 g g g | a4 g g g | g4( f8 e f4) g | f2( e ) |
   g4 g f2 | e1
-}\addlyrics{A -- men. We have seen the light, the true light and have re -- ceived the heav'n -- ly Spi -- rit;
+}\addlyrics{We have seen the light, the true light and have re -- ceived the heav'n -- ly Spi -- rit;
  we now have found the true faith, by our wor -- ship -- ping the un -- di -- vid -- ed Tri -- ni -- ty,
  Who has saved us.}
 #+end_src
