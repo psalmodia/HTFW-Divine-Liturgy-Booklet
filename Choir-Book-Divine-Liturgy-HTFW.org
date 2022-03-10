@@ -33,16 +33,25 @@ scoreTitleMarkup=##f
 }"
 #+end_src
 
+#+name: Amen
+#+begin_src emacs-lisp :exports none :results silent
+"\\relative c'' {
+  \\textLengthOn
+  \\override Staff.TimeSignature #'stencil = ##f
+  \\time 2/4
+  g2
+  \\time 4/4
+  g1
+}\\addlyrics{A- men}"
+#+end_src
+
+\newcommand{\amenone}{\begin[staffsize=25]{lilypond}
+<<Amen()>>
+\end{lilypond}}
+
 #+begin_src lilypond :exports none :results none :file images/Amen.png :noweb yes
 <<lpsnippet()>>
-\relative c'' {
-  \textLengthOn
-  \override Staff.TimeSignature #'stencil = ##f
-  \time 2/4
-  g2
-  \time 4/4
-  g1
-}\addlyrics{A- men}
+<<Amen()>>
 #+end_src
 
 #+begin_src lilypond :exports none :results none :file images/Amin.png :noweb yes
