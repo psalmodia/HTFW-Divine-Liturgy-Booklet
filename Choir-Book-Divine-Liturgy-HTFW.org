@@ -411,6 +411,60 @@ scoreTitleMarkup=##f
 }
 #+end_src
 
+#+begin_src lilypond :exports none :results none :file images/church-hymn-gr.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\markup { \override #'(line-width . 68.5) \fill-line { \null \null \teeny "(Old Green Book)" } }
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \key f \major
+  \time 3/4 f4 f g | a4 g f | \time 5/4 a4 g2 d4( e) | \time 4/4 f( g) f( e) | f2
+  f4 g | g4( a) a2( a4) f g a | bes2 a4 g | \time 6/4 a2 g
+  g4 a | bes4 a g g f | a2 g d4( e) | \time 4/4 f( g) f( e) | \time 6/4 f2.
+  d4 e f | \time 4/4 g2. f4 | g4 a bes4 bes | \time 6/4 a g a2 g2 |
+  f4 a g2 d4( e) | \time 4/4 f4( g) f ( e)| f1 \bar "|."
+}
+\addlyrics {
+  Εύ -- λο -- γη -- τός εἶ Χρι -- στὲ ὁ Θε -- ος ἡ -- μῶν
+  ὁ παν -- σό -- φους τοὺς ἁ -- λι -- εῖς ἁ -- να -- δεί -- ξας
+  κα -- τα -- πέμ -- ψας αὐ -- τοῖς τὸ Πνεῦ -- μα τὸ ἅ -- γι -- ον
+  καὶ δι᾽ αὐ -- τῶν τῆν οἰ -- κου -- μέ -- νην σα -- γη -- νεύ -- σας
+  φι -- λάν -- θρω -- πε δό -- ξα Σοι.
+  }
+#+end_src
+
+#+begin_src lilypond :exports none :results none :file images/church-hymn-en.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\markup { \override #'(line-width . 68.5) \fill-line { \null \null \teeny "(Old Green Book)" } }
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \key f \major
+  \time 3/4 f4 f g | \time 4/4 a4( g f a) g2 d4( e) | f( g) f( e) | f2
+  f4 g | g4 a a2( a4) f g a | bes2 a4 g | \time 6/4 a2 g
+  g4 a | \time 5/4 bes4 a g g f | \time 6/4 a2 g d4( e) | \time 4/4 f( g) f e | \time 6/4 f2.
+  d4 e( f) | \time 4/4 g2. f4 | g4 a bes4 bes | \time 6/4 a g a2( g2) |
+  f4( a) g2 d4 e | \time 4/4 f4( g) f ( e)| f1 \bar "|."
+}
+\addlyrics {
+  O bles -- sed are You, O Christ our God,
+  Who by send -- ing down the Ho -- ly Spi -- rit up -- on them
+  made the fish -- er -- men wise and through them il -- lu -- mined the world.
+  And to You the u -- ni -- verse was ev -- er drawn.
+  All glo -- ry to You, O Lord.
+}
+#+end_src
+
 #+begin_src lilypond :exports none :results none :file images/holy-god-en.png :noweb yes
 <<lpsnippet()>>
 \layout {
@@ -829,6 +883,12 @@ PEOPLE
 # Come, let us worship and bow down before Christ. Save us, O Son of God who did rise from the dead, we sing to You: Alleluia.
 
 /(The priest enters the Holy Altar. The hymn of the day is repeated, then the hymn of the church and other hymns of the day are sung.)/
+
+** Church Hymn
+
+[[./images/church-hymn-gr.png]]
+
+[[./images/church-hymn-en.png]]
 
 * TRISAGION HYMN
 
