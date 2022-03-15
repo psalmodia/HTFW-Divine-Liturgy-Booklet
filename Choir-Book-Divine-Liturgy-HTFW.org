@@ -21,8 +21,24 @@
 
 #+HTML_HEAD: <style type="text/css">
 #+HTML_HEAD:   <!--/*--><![CDATA[/*><!--*/
-#+HTML_HEAD:   body { font-size: 16px; }
+#+HTML_HEAD:   body { font-size: 20px; }
 #+HTML_HEAD:   .figure p { text-align: left; }
+#+HTML_HEAD:   @page {
+#+HTML_HEAD:     size: letter;
+#+HTML_HEAD:   }
+#+HTML_HEAD:   h1, h2, h3, h4, h5 {
+#+HTML_HEAD:     page-break-after: avoid;
+#+HTML_HEAD:   }
+#+HTML_HEAD:   @page:right{
+#+HTML_HEAD:     @bottom-right {
+#+HTML_HEAD:       content: counter(page);
+#+HTML_HEAD:     }
+#+HTML_HEAD:   }
+#+HTML_HEAD:   @page:left{
+#+HTML_HEAD:     @bottom-left {
+#+HTML_HEAD:       content: counter(page);
+#+HTML_HEAD:     }
+#+HTML_HEAD:   }
 #+HTML_HEAD:   /*]]>*/-->
 #+HTML_HEAD: </style>
 
