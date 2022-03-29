@@ -1,7 +1,8 @@
 #!/bin/sh
 
 wkhtmltopdf -s Letter \
---zoom 1.0 \
+--allow images \
+--zoom 1.5 \
 --margin-top 0.75in \
 --margin-bottom 1in \
 --margin-left 0.75in \
