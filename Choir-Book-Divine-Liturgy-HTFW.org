@@ -1,5 +1,5 @@
 #+TITLE: The Divine Liturgy of Saint John Chrysostom
-#+OPTIONS: num:nil toc:nil
+#+OPTIONS: num:nil toc:nil author:nil timestamp:nil
 # \documentclass[12pt,letterpaper,twoside]{article}
 #+LaTeX_CLASS_OPTIONS: article
 #+LaTeX_CLASS_OPTIONS: [12pt,letterpaper,twoside]
@@ -41,6 +41,10 @@
 #+HTML_HEAD:   }
 #+HTML_HEAD:   /*]]>*/-->
 #+HTML_HEAD: </style>
+
+#+begin_src emacs-lisp :exports none
+  (setq org-html-postamble nil)  ;; only way I know how to get rid of the "Validate" link at export
+#+end_src
 
 #+name: lpsnippet
 #+begin_src emacs-lisp :exports none :results silent
