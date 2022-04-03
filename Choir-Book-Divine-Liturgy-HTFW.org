@@ -1,5 +1,5 @@
 #+TITLE: The Divine Liturgy of Saint John Chrysostom
-#+OPTIONS: num:nil toc:nil
+#+OPTIONS: num:nil toc:nil author:nil timestamp:nil
 # \documentclass[12pt,letterpaper,twoside]{article}
 #+LaTeX_CLASS_OPTIONS: article
 #+LaTeX_CLASS_OPTIONS: [12pt,letterpaper,twoside]
@@ -41,6 +41,10 @@
 #+HTML_HEAD:   }
 #+HTML_HEAD:   /*]]>*/-->
 #+HTML_HEAD: </style>
+
+#+begin_src emacs-lisp :exports none
+  (setq org-html-postamble nil)  ;; only way I know how to get rid of the "Validate" link at export
+#+end_src
 
 #+name: lpsnippet
 #+begin_src emacs-lisp :exports none :results silent
@@ -737,7 +741,7 @@ For those who travel by land, sea, and air, for the sick, the suffering, the cap
 
 [[./images/LHM01.png]]
 
-For our deliverance from all affliction, wrath, danger and distress, and from the peril of the coronavirus against us, let us pray to the Lord.
+For our deliverance from all affliction, wrath, danger and distress, let us pray to the Lord.
 
 [[./images/LHM02.png]]
 
@@ -1089,7 +1093,7 @@ Let us who mystically represent the cherubim, and who sing the thrice holy hymn 
 # DEACON
 PRIEST
 
-Πάντων ἡμῶν μνησθείη Κύριος ὁ Θεὸς ἐν τῇ Βασιλείᾳ Αὐτοῦ, πάντοτε, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.
+Πάντων ὑμῶν μνησθείη Κύριος ὁ Θεὸς ἐν τῇ βασιλείᾳ αὐτοῦ, πάντοτε, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.
 
 PEOPLE
 
@@ -1773,13 +1777,13 @@ mais délivre-nous du Malin.
 
 /Spanish/
 
-Padre nuestro que estás en los cielos, \\
-Santificado sea Tu Nombre. \\
-Venga Tu reino. \\
-Hágase Tu voluntad así en la tierra como en el cielo. \\
-Danos hoy nuestro pan de cada día. \\
-Perdona nuestras ofensas, así como también nosotros perdonamos a los que nos ofenden. \\
-No nos dejes caer en la tentación y líbranos del mal.
+Padre Nuestro, que estás en los cielos, \\
+santificado sea Tu Nombre, \\
+venga a nos Tu reino, \\
+hágase Tu voluntad así en la tierra como en el cielo. \\
+El pan nuestro de cada día, dánoslo hoy \\
+y perdónanos nuestras deudas así como nosotros perdonamos a nuestros deudores. \\
+Y no nos dejes caer en la tentación, más líbranos del mal.
 
 /Albanian/
 
@@ -1799,19 +1803,26 @@ jareeb; laken najjina min ashireer.
 
 /Slavonic/
 
-Оч͠е нашь ижє ѥси на н͠бсєхъ . да с͠титьсѧ имѧ \\
-твоѥ да придєть ц͠рствиѥ твоѥ · да бѫдєть воля \\
-твоя · яка на н͠бси и на земли хлѣбъ нашь насѫщьиыи · \\
+Оче нашь ижє ѥси на нбсєхъ . да ститьсѧ имѧ \\
+твоѥ да придєть црствиѥ твоѥ · да бѫдєть воля \\
+твоя · яка на нбси и на земли хлѣбъ нашь насѫщьиыи · \\
 даждь намъ дьньсь · и остави намъ · длъгы \\
 нашѧ · яко и мы оставляємъ длъжникомъ нашимъ \\
 и нє въвєди насъ въ напасть · иъ избави ны отъ нєприязни
 
-Ot-che nash, Ee-zhe ye see na nye-bye-sekh! da svya-tee-tsya ee-mya \\
-Tvo-ye, da pri-ee-dyet Tsar-stvi-ye Tvo-ye: da boo-dyet vol-ya \\
-Tvo-ya, ya-ko na nye-bye-see ee na zem-lee. Khleb nash na-soosch-nui \\
-dazhd nam dnyes: ee o-sta-vee nam dol-gee \\
+# The following may be Russian, or Russian transliteration.
+# О́тче наш, И́же еси́ на Небесе́х, да святи́тся И́мя Твое́, \\
+# да прии́дет Ца́рствие Твое́, да бу́дет во́ля Твоя́, \\
+# я́ко на Небеси́ и на земли́. Хлеб наш насу́щный да́ждь нам днесь; \\
+# и оста́ви нам до́лги на́ша, я́коже и мы оставля́ем должнико́м на́шим; \\
+# и не введи́ нас во искуше́ние, но изба́ви нас от лука́ваго. \\
+
+Ot-che nash, Ee-zhe ye see na nye-bye-sekh! da svya-tee-tsya ee-mya \\
+Tvo-ye, da pri-ee-dyet Tsar-stvi-ye Tvo-ye: da boo-dyet vol-ya \\
+Tvo-ya, ya-ko na nye-bye-see ee na zem-lee. Khleb nash na-soosch-nui \\
+dazhd nam dnyes: ee o-sta-vee nam dol-gee \\
 na-shya, ya-ko-zhe ee mui o-sta-vlya-yem dol-zhnee-kom na-shuim: \\
- ee nye vvye-dee nas vo ees-koo-shye-ni-ye, no eez-ba-vee nas ot loo-ka-va-go.
+ee nye vvye-dee nas vo ees-koo-shye-ni-ye, no eez-ba-vee nas ot loo-ka-va-go.
 
 /English/
 
