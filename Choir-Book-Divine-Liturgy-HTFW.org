@@ -1799,19 +1799,26 @@ jareeb; laken najjina min ashireer.
 
 /Slavonic/
 
-Оч͠е нашь ижє ѥси на н͠бсєхъ . да с͠титьсѧ имѧ \\
-твоѥ да придєть ц͠рствиѥ твоѥ · да бѫдєть воля \\
-твоя · яка на н͠бси и на земли хлѣбъ нашь насѫщьиыи · \\
+Оче нашь ижє ѥси на нбсєхъ . да ститьсѧ имѧ \\
+твоѥ да придєть црствиѥ твоѥ · да бѫдєть воля \\
+твоя · яка на нбси и на земли хлѣбъ нашь насѫщьиыи · \\
 даждь намъ дьньсь · и остави намъ · длъгы \\
 нашѧ · яко и мы оставляємъ длъжникомъ нашимъ \\
 и нє въвєди насъ въ напасть · иъ избави ны отъ нєприязни
 
-Ot-che nash, Ee-zhe ye see na nye-bye-sekh! da svya-tee-tsya ee-mya \\
-Tvo-ye, da pri-ee-dyet Tsar-stvi-ye Tvo-ye: da boo-dyet vol-ya \\
-Tvo-ya, ya-ko na nye-bye-see ee na zem-lee. Khleb nash na-soosch-nui \\
-dazhd nam dnyes: ee o-sta-vee nam dol-gee \\
+# The following may be Russian, or Russian transliteration.
+# О́тче наш, И́же еси́ на Небесе́х, да святи́тся И́мя Твое́, \\
+# да прии́дет Ца́рствие Твое́, да бу́дет во́ля Твоя́, \\
+# я́ко на Небеси́ и на земли́. Хлеб наш насу́щный да́ждь нам днесь; \\
+# и оста́ви нам до́лги на́ша, я́коже и мы оставля́ем должнико́м на́шим; \\
+# и не введи́ нас во искуше́ние, но изба́ви нас от лука́ваго. \\
+
+Ot-che nash, Ee-zhe ye see na nye-bye-sekh! da svya-tee-tsya ee-mya \\
+Tvo-ye, da pri-ee-dyet Tsar-stvi-ye Tvo-ye: da boo-dyet vol-ya \\
+Tvo-ya, ya-ko na nye-bye-see ee na zem-lee. Khleb nash na-soosch-nui \\
+dazhd nam dnyes: ee o-sta-vee nam dol-gee \\
 na-shya, ya-ko-zhe ee mui o-sta-vlya-yem dol-zhnee-kom na-shuim: \\
- ee nye vvye-dee nas vo ees-koo-shye-ni-ye, no eez-ba-vee nas ot loo-ka-va-go.
+ee nye vvye-dee nas vo ees-koo-shye-ni-ye, no eez-ba-vee nas ot loo-ka-va-go.
 
 /English/
 
