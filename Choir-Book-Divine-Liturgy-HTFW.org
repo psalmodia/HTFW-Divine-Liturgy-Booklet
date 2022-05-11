@@ -1367,8 +1367,10 @@ PEOPLE
 \relative c'' {
   \textLengthOn
   \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  c2 g4 g |
   \time 3/4
-  c4 g g | g2 a4 | a4( g) f | e2.
+  g2 a4 | a4( g) f | e2.
 }\addlyrics{We lift them up un -- to the Lord.}
 #+end_src
 
