@@ -455,7 +455,13 @@ scoreTitleMarkup=##f
   κα -- τα -- πέμ -- ψας αὐ -- τοῖς τὸ Πνεῦ -- μα τὸ ἅ -- γι -- ον
   καὶ δι᾽ αὐ -- τῶν τῆν οἰ -- κου -- μέ -- νην σα -- γη -- νεύ -- σας
   φι -- λάν -- θρω -- πε δό -- ξα Σοι.
-  }
+}\addlyrics {
+  Ev -- lo -- ghi -- tos i Hri -- ste o Θe -- os i -- mon
+  o pan -- so -- fus tus a -- li -- is a -- na -- δi -- ksas
+  ka -- ta -- pem -- psas af -- tis ti Pnev -- ma to a -- ghi -- on
+  ke δi af -- ton tin i -- ku -- me -- nin sa -- ghi -- nev -- sas
+  fi -- lan -- θro -- pe δo -- ksa Si.
+}
 #+end_src
 
 #+begin_src lilypond :exports none :results none :file images/church-hymn-en.png :noweb yes
@@ -1511,7 +1517,13 @@ PEOPLE
  σὲ εὐ -- λο -- γοῦ -- μεν,
  σοὶ εὐ -- χα -- ρι -- στοῦ -- μεν, Κύ -- ρι -- ε,
  καὶ δε -- ό -- με -- θά σου,
- ὁ Θε -- ὸς ἡ -- μῶν.}
+ ὁ Θε -- ὸς ἡ -- μῶν.
+}\addlyrics{Se i -- mnu -- men,
+ se ev -- lo -- ghu -- men,
+ si ef -- ha -- ri -- stu -- men, Ki -- ri -- e,
+ ke δe -- o -- me -- θa su,
+ o Θe -- os i -- mon.
+}
 #+end_src
 
 [[./images/Se-imnoumen.png]]
@@ -1921,7 +1933,7 @@ PEOPLE
   \time 3/4
   e2 e4 | e2 c4 | f2 f4 | f2. | d2 d4 | e2 f4 | g2.( g4)
   r4 g | c2. | b2 a4 | g4( a) f | g2. | f2. | e2. |
-}\addlyrics{Εἷς Ἅ -- γι -- ος, εἷς Κύ -- ρι -- ος, Ἰ -- η -- σοῦς Χρι -- στός, εἰς δό -- ξαν Θε -- οῦ Πα -- τρός. Ἀ -- μήν.}
+}\addlyrics{Εἷς Ἅ -- γι -- ος, εἷς Κύ -- ρι -- ος, Ἰ -- η -- σοῦς Χρι -- στός, εἰς δό -- ξαν Θε -- οῦ Πα -- τρός. Ἀ -- μήν.}\addlyrics{Is A -- ghi -- os, is Ki -- ri -- os, I -- i -- sus Hri -- stos, is δo -- ksan Θe -- u Pa -- tros. A -- min.}
 #+end_src
 
 [[./images/Eis-Ayios.png]]
@@ -2069,7 +2081,7 @@ PEOPLE
   g2 g4 g | a4 f e f | g2 g4 g | a4 g g g | a4 g g g | g4( f8 e f4 g) | f2( e ) |
   \time 3/4
   b'2 b4 | b2 g4 | a2. | g8( a g4) f4 | e2.
-}\addlyrics{Εἴ -- δο -- μεν τὸ φῶς τὸ ἀ -- λη -- θι -- νόν, ἐ -- λά -- βο -- μεν Πνεῦ -- μα ἐ -- που -- ρά -- νι -- ον, εὕ -- ρο -- μεν πί -- στιν ἀ -- λη -- θῆ, ἀ -- δι -- αί -- ρε -- τον Τρι -- ά -- δα προ -- σκυ -- νοῦ -- ντες, αὕ -- τη γὰρ ἡ -- μᾶς ἔ -- σω -- σεν.}
+}\addlyrics{Εἴ -- δο -- μεν τὸ φῶς τὸ ἀ -- λη -- θι -- νόν, ἐ -- λά -- βο -- μεν Πνεῦ -- μα ἐ -- που -- ρά -- νι -- ον, εὕ -- ρο -- μεν πί -- στιν ἀ -- λη -- θῆ, ἀ -- δι -- αί -- ρε -- τον Τρι -- ά -- δα προ -- σκυ -- νοῦ -- ντες, αὕ -- τη γὰρ ἡ -- μᾶς ἔ -- σω -- σεν.}\addlyrics{I -- δo -- men to fos to a -- li -- θi -- non, e -- la -- vo -- men Pnev -- ma e -- pu -- ra -- ni -- on, ev -- ro -- men pi -- stin a -- li -- θi, a -- δi -- e -- re -- ton Tri -- a -- δa pro -- ski -- nu -- ndes, af -- ti ghar i -- mas e -- so -- sen.}
 #+end_src
 
 [[./images/Eidomen-to-fws-2.png]]
@@ -2343,7 +2355,7 @@ PEOPLE
   g4 g b( a) |
   g4( f8 e f4 g) |
   f2( e2)\fermata
-}\addlyrics{Τὸν εὐ -- λο -- γοῦν -- τα καὶ ἁ -- γι -- ά -- ζον -- τα ἡ -- μᾶς, Κύ -- ρι -- ε, φύ -- λατ -- τε εἰς πολ -- λὰ ἔ -- τη.}
+}\addlyrics{Τὸν εὐ -- λο -- γοῦν -- τα καὶ ἁ -- γι -- ά -- ζον -- τα ἡ -- μᾶς, Κύ -- ρι -- ε, φύ -- λατ -- τε εἰς πολ -- λὰ ἔ -- τη.}\addlyrics{Ton ev -- lo -- ghun -- da ke a -- ghi -- a -- zon -- da i -- mas, Ki -- ri -- e, fi -- lat -- te is pol -- la e -- ti.}
 #+end_src
 
 [[./images/Ton-Eulogounta-old-green-book.png]]
