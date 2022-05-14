@@ -1978,7 +1978,25 @@ PEOPLE
 }\addlyrics{Praise the Lord from the heav -- ens, praise Him in the high -- est.  Al -- le -- lu -- i -- a.}
 #+end_src
 
-[[./images/Communion-Hymn-en.png]]
+# Music from the old Green Book. [It's terrible, but they want it. :( ]
+#+begin_src lilypond :exports none :results none :file images/Communion-Hymn-en-OGB.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 2/4
+  c4( d | \time 4/4 e4 d c b | c2) e4( f | g4 a f) g | g2 g4 g |
+  a2( b) | c2\fermata g4( a | b4 c b a) | g2 f4( e) | d2gy e4 f | g2 e4 f | e2( d) | c1 |
+  \time 2/4 c4 c | \time 4/4 d4( e f8 g f e) | e4.( d8 c d c4) | c1 |
+}\addlyrics{Praise Praise the Lord, from the heav -- ens, praise Him, praise Him, in the high -- est the high -- est.  Al -- le -- lu -- i -- a.}
+#+end_src
+
+[[./images/Communion-Hymn-en-OGB.png]]
 
 # #+LATEX: \selectlanguage{greek}
 # #+LATEX: Αἰνεῖτε τὸν Κύριον ἐκ τῶν οὐρανῶν. Αἰνεῖτε αὐτὸν ἐν τοῖς ὑψίστοις. Ἀλληλούϊα. Ἀλληλούϊα. Ἀλληλούϊα \\
@@ -2015,7 +2033,25 @@ PEOPLE
 }\addlyrics{Αἰ -- νεῖ -- τε τὸν Κύ -- ρι -- ον ἐκ τῶν οὐ -- ρα -- νῶν. Αἰ -- νεῖ -- τε αὐ -- τὸν ἐν τοῖς ὑ -- ψί -- στοις. Ἀλ -- λη -- λού -- ϊ -- α.}
 #+end_src
 
-[[./images/Communion-Hymn-gr.png]]
+# Music from the old Green Book.
+#+begin_src lilypond :exports none :results none :file images/Communion-Hymn-gr-OGB.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 2/4
+  c4( d) | \time 4/4 e4( d c b) | c2 e4( f) | g4( a) f( g) | g2 g4 g |
+  a2 b | c2\fermata g4( a) | b4( c b a) | g2 f4( e) | d2 e4( f) | g2 e4( f) | e2( d) | c1 |
+  \time 2/4 c4 c | \time 4/4 d4( e f8 g f e) | e4.( d8 c d c4) | c1 |
+}\addlyrics{Αἰ -- νεῖ -- τε τὸν Κύ -- ρι -- ον ἐκ τῶν οὐ -- ρα -- νῶν. Αἰ -- νεῖ -- τε αὐ -- τὸν ἐν τοῖς ὑ -- ψί -- στοις. Ἀλ -- λη -- λού -- ϊ -- α.}
+#+end_src
+
+[[./images/Communion-Hymn-gr-OGB.png]]
 
 /(The Priest partakes of the body and the blood of the Lord and he prepares the Holy Communion for the people)/
 
