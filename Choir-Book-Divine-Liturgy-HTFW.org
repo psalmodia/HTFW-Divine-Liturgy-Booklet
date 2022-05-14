@@ -719,7 +719,7 @@ For the peace of the whole world, for the stability of the holy churches of God,
 
 [[./images/LHM03.png]]
 
-For this holy house and for those who enter it with faith, reverence, and the fear of God, let us pray to the Lord.
+For this holy house and for those who enter it with faith, reverence, and godly fear, let us pray to the Lord.
 
 [[./images/LHM01.png]]
 
@@ -727,7 +727,7 @@ For pious and Orthodox Christians, let us pray to the Lord.
 
 [[./images/LHM02.png]]
 
-For (episcopal rank) (name), for the honorable presbyterate, for the diaconate in Christ, and for all the clergy and the people, let us pray to the Lord.
+For our Archbishop and Father Nicholas, for the honorable presbyterate, for the diaconate in Christ, and for all the clergy and the people, let us pray to the Lord.
 
 [[./images/LHM03.png]]
 
@@ -747,15 +747,15 @@ For those who travel by land, sea, and air, for the sick, the suffering, the cap
 
 [[./images/LHM01.png]]
 
-For our deliverance from all affliction, wrath, danger and distress, let us pray to the Lord.
+For our deliverance from all affliction, wrath, danger and necessity, let us pray to the Lord.
 
 [[./images/LHM02.png]]
 
-Help us, save us, have mercy on us, and protect us, O God, by Your grace.
+Help us, save us, have mercy on us, and keep us, O God, by Your grace.
 
 [[./images/LHM03.png]]
 
-Remembering our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
+Commemorating our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
 
 [[./images/TYOL01.png]]
 
@@ -868,12 +868,12 @@ PEOPLE
 # DEACON
 PRIEST
 
-Again and again, in peace, let us pray to the Lord.
+In peace let us again pray to the Lord.
 
 # /(Lord, have mercy.)/
 [[./images/LHM01.png]]
 
-Help us, save us, have mercy on us, and protect us, O God, by Your grace.
+Help us, save us, have mercy upon us, and keep us, O God, by Your grace.
 
 # /(Lord, have mercy.)/
 [[./images/LHM02.png]]
@@ -885,7 +885,7 @@ Remembering our most holy, pure, blessed, and glorious Lady, the Theotokos and e
 
 PRIEST
 
-For You, O God, are good and love mankind, and to You we offer glory, to the Father and to the Son and to the Holy Spirit, now and forever, and to the ages of ages.
+For You are a good and loving God, and to You we give glory, to the Father and the Son and the Holy Spirit, now and forever and to the ages of ages.
 
 # /(Amen.)/
 [[./images/Amen.png]]
@@ -1137,7 +1137,7 @@ For the precious Gifts here presented, let us pray to the Lord.
 [[./images/LHM02.png]]
 # /(Lord, have mercy.)/
 
-For this holy house and for those who enter it with faith, reverence, and the fear of God, let us pray to the Lord.
+For this holy house and for those who enter it with faith, reverence, and godly fear, let us pray to the Lord.
 
 [[./images/LHM03.png]]
 # /(Lord, have mercy.)/
@@ -1162,12 +1162,12 @@ For an angel of peace, a faithful guide, a guardian of our souls and bodies, let
 [[./images/GTOL02.png]]
 # /(Grant this, O Lord.)/
 
-For pardon and remission of our sins and transgressions, let us ask the Lord.
+For forgiveness and remission of our sins and transgressions, let us ask the Lord.
 
 [[./images/GTOL03.png]]
 # /(Grant this, O Lord.)/
 
-For that which is good and beneficial for our souls, and for peace for the world, let us ask the Lord.
+For all that is good and beneficial to our souls, and for peace in the world, let us ask the Lord.
 
 [[./images/GTOL01.png]]
 # /(Grant this, O Lord.)/
@@ -1177,12 +1177,12 @@ That we may complete the remaining time of our life in peace and repentance, let
 [[./images/GTOL02.png]]
 # /(Grant this, O Lord.)/
 
-And let us ask for a Christian end to our life, peaceful, without shame and suffering, and for a good defense before the awesome judgment seat of Christ.
+For a Christian end to our life, peaceful, without shame and suffering, and for a good account before the awesome judgment seat of Christ, let us ask the Lord.
 
 [[./images/GTOL03.png]]
 # /(Grant this, O Lord.)/
 
-Remembering our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
+Remembering our most holy, pure, blessed, and glorious Lady, Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
 
 [[./images/TYOL01.png]]
 # /(To You, O Lord.)/
@@ -1209,7 +1209,7 @@ PEOPLE
 
 DEACON
 
-Let us love one another, that with oneness of mind we may confess:
+Let us love one another, that with one mind we may confess:
 
 PEOPLE
 
@@ -1240,7 +1240,7 @@ Iubite-voi, Doamne, vartutea mea! Domnul este intarirea mea si scaparea mea si i
 
 DEACON
 
-The doors! The doors! In wisdom, let us be attentive!
+Guard the doors! Wisdom! Let us be attentive!
 
 ** THE SYMBOL OF OUR FAITH (THE CREED)
 
@@ -1308,7 +1308,7 @@ PEOPLE
 
 DEACON
 
-Let us stand aright! Let us stand in awe! Let us be attentive, that we may present the Holy Offering in peace.
+Let us stand well! Let us stand in awe! Let us be attentive, that we may present the Holy Offering in peace.
 
 PEOPLE
 
@@ -1334,7 +1334,7 @@ PEOPLE
 
 PRIEST
 
-The grace of our Lord Jesus Christ, and the love of God and Father, and the communion of the Holy Spirit, be with you all.
+The grace of our Lord Jesus Christ, the love of God and Father, and the communion of the Holy Spirit, be with all of you.
 
 PEOPLE
 
@@ -1855,7 +1855,7 @@ For Yours is the Kingdom and the power and the glory, of the Father and of the S
 # /(Amen.)/
 [[./images/Amen.png]]
 
-Εἰρήνη πᾶσι.  Peace be with all.
+Εἰρήνη πᾶσι.  Peace be with you all.
 
 # /(And with your spirit.)/
 [[./images/AWYS.png]]
@@ -1940,7 +1940,7 @@ PEOPLE
 
 PEOPLE
 
-/(The *Communion Prayers* are recited by all those prepared to receive the holy Mysteries.)/
+/(The *Communion Prayers* are recited by all those prepared to receive the Body and the Blood of the Lord.)/
 
 I believe and confess, Lord, that You are truly the Christ, the Son of the living God, who came into the world to save sinners, of whom I am the first. I also believe that this is truly Your pure Body and that this is truly Your precious Blood. Therefore, I pray to You, have mercy upon me, and forgive my transgressions, voluntary and involuntary, in word and deed, known and unknown. And make me worthy without condemnation to partake of Your pure Mysteries for the forgiveness of sins and for life eternal. Amen.
 
@@ -2331,7 +2331,7 @@ PEOPLE
 
 PRIEST
 
-May the blessing of the Lord and His mercy come upon you through His divine 	grace and love always, now and forever and to the ages of ages.
+May the blessing of the Lord and His mercy come upon you through His divine grace and love always, now and forever and to the ages of ages.
 
 PEOPLE
 
@@ -2403,7 +2403,7 @@ PEOPLE
 
 PRIEST
 
-Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy 	on us and save us. 
+Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy on us and save us. 
 
 PEOPLE
 
