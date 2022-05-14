@@ -455,7 +455,13 @@ scoreTitleMarkup=##f
   κα -- τα -- πέμ -- ψας αὐ -- τοῖς τὸ Πνεῦ -- μα τὸ ἅ -- γι -- ον
   καὶ δι᾽ αὐ -- τῶν τῆν οἰ -- κου -- μέ -- νην σα -- γη -- νεύ -- σας
   φι -- λάν -- θρω -- πε δό -- ξα Σοι.
-  }
+}\addlyrics {
+  Ev -- lo -- ghi -- tos i Hri -- ste o Θe -- os i -- mon
+  o pan -- so -- fus tus a -- li -- is a -- na -- δi -- ksas
+  ka -- ta -- pem -- psas af -- tis ti Pnev -- ma to a -- ghi -- on
+  ke δi af -- ton tin i -- ku -- me -- nin sa -- ghi -- nev -- sas
+  fi -- lan -- θro -- pe δo -- ksa Si.
+}
 #+end_src
 
 #+begin_src lilypond :exports none :results none :file images/church-hymn-en.png :noweb yes
@@ -713,7 +719,7 @@ For the peace of the whole world, for the stability of the holy churches of God,
 
 [[./images/LHM03.png]]
 
-For this holy house and for those who enter it with faith, reverence, and the fear of God, let us pray to the Lord.
+For this holy house and for those who enter it with faith, reverence, and godly fear, let us pray to the Lord.
 
 [[./images/LHM01.png]]
 
@@ -721,7 +727,7 @@ For pious and Orthodox Christians, let us pray to the Lord.
 
 [[./images/LHM02.png]]
 
-For (episcopal rank) (name), for the honorable presbyterate, for the diaconate in Christ, and for all the clergy and the people, let us pray to the Lord.
+For our Archbishop and Father Nicholas, for the honorable presbyterate, for the diaconate in Christ, and for all the clergy and the people, let us pray to the Lord.
 
 [[./images/LHM03.png]]
 
@@ -741,15 +747,15 @@ For those who travel by land, sea, and air, for the sick, the suffering, the cap
 
 [[./images/LHM01.png]]
 
-For our deliverance from all affliction, wrath, danger and distress, let us pray to the Lord.
+For our deliverance from all affliction, wrath, danger and necessity, let us pray to the Lord.
 
 [[./images/LHM02.png]]
 
-Help us, save us, have mercy on us, and protect us, O God, by Your grace.
+Help us, save us, have mercy on us, and keep us, O God, by Your grace.
 
 [[./images/LHM03.png]]
 
-Remembering our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
+Commemorating our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
 
 [[./images/TYOL01.png]]
 
@@ -862,12 +868,12 @@ PEOPLE
 # DEACON
 PRIEST
 
-Again and again, in peace, let us pray to the Lord.
+In peace let us again pray to the Lord.
 
 # /(Lord, have mercy.)/
 [[./images/LHM01.png]]
 
-Help us, save us, have mercy on us, and protect us, O God, by Your grace.
+Help us, save us, have mercy upon us, and keep us, O God, by Your grace.
 
 # /(Lord, have mercy.)/
 [[./images/LHM02.png]]
@@ -879,7 +885,7 @@ Remembering our most holy, pure, blessed, and glorious Lady, the Theotokos and e
 
 PRIEST
 
-For You, O God, are good and love mankind, and to You we offer glory, to the Father and to the Son and to the Holy Spirit, now and forever, and to the ages of ages.
+For You are a good and loving God, and to You we give glory, to the Father and the Son and the Holy Spirit, now and forever and to the ages of ages.
 
 # /(Amen.)/
 [[./images/Amen.png]]
@@ -1131,7 +1137,7 @@ For the precious Gifts here presented, let us pray to the Lord.
 [[./images/LHM02.png]]
 # /(Lord, have mercy.)/
 
-For this holy house and for those who enter it with faith, reverence, and the fear of God, let us pray to the Lord.
+For this holy house and for those who enter it with faith, reverence, and godly fear, let us pray to the Lord.
 
 [[./images/LHM03.png]]
 # /(Lord, have mercy.)/
@@ -1156,12 +1162,12 @@ For an angel of peace, a faithful guide, a guardian of our souls and bodies, let
 [[./images/GTOL02.png]]
 # /(Grant this, O Lord.)/
 
-For pardon and remission of our sins and transgressions, let us ask the Lord.
+For forgiveness and remission of our sins and transgressions, let us ask the Lord.
 
 [[./images/GTOL03.png]]
 # /(Grant this, O Lord.)/
 
-For that which is good and beneficial for our souls, and for peace for the world, let us ask the Lord.
+For all that is good and beneficial to our souls, and for peace in the world, let us ask the Lord.
 
 [[./images/GTOL01.png]]
 # /(Grant this, O Lord.)/
@@ -1171,12 +1177,12 @@ That we may complete the remaining time of our life in peace and repentance, let
 [[./images/GTOL02.png]]
 # /(Grant this, O Lord.)/
 
-And let us ask for a Christian end to our life, peaceful, without shame and suffering, and for a good defense before the awesome judgment seat of Christ.
+For a Christian end to our life, peaceful, without shame and suffering, and for a good account before the awesome judgment seat of Christ, let us ask the Lord.
 
 [[./images/GTOL03.png]]
 # /(Grant this, O Lord.)/
 
-Remembering our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
+Remembering our most holy, pure, blessed, and glorious Lady, Theotokos and ever-virgin Mary, with all the saints, let us commit ourselves and one another and our whole life to Christ our God.
 
 [[./images/TYOL01.png]]
 # /(To You, O Lord.)/
@@ -1203,7 +1209,7 @@ PEOPLE
 
 DEACON
 
-Let us love one another, that with oneness of mind we may confess:
+Let us love one another, that with one mind we may confess:
 
 PEOPLE
 
@@ -1234,7 +1240,7 @@ Iubite-voi, Doamne, vartutea mea! Domnul este intarirea mea si scaparea mea si i
 
 DEACON
 
-The doors! The doors! In wisdom, let us be attentive!
+Guard the doors! Wisdom! Let us be attentive!
 
 ** THE SYMBOL OF OUR FAITH (THE CREED)
 
@@ -1302,7 +1308,7 @@ PEOPLE
 
 DEACON
 
-Let us stand aright! Let us stand in awe! Let us be attentive, that we may present the Holy Offering in peace.
+Let us stand well! Let us stand in awe! Let us be attentive, that we may present the Holy Offering in peace.
 
 PEOPLE
 
@@ -1328,7 +1334,7 @@ PEOPLE
 
 PRIEST
 
-The grace of our Lord Jesus Christ, and the love of God and Father, and the communion of the Holy Spirit, be with you all.
+The grace of our Lord Jesus Christ, the love of God and Father, and the communion of the Holy Spirit, be with all of you.
 
 PEOPLE
 
@@ -1367,8 +1373,10 @@ PEOPLE
 \relative c'' {
   \textLengthOn
   \override Staff.TimeSignature #'stencil = ##f
+  \time 4/4
+  c2 g4 g |
   \time 3/4
-  c4 g g | g2 a4 | a4( g) f | e2.
+  g2 a4 | a4( g) f | e2.
 }\addlyrics{We lift them up un -- to the Lord.}
 #+end_src
 
@@ -1509,7 +1517,13 @@ PEOPLE
  σὲ εὐ -- λο -- γοῦ -- μεν,
  σοὶ εὐ -- χα -- ρι -- στοῦ -- μεν, Κύ -- ρι -- ε,
  καὶ δε -- ό -- με -- θά σου,
- ὁ Θε -- ὸς ἡ -- μῶν.}
+ ὁ Θε -- ὸς ἡ -- μῶν.
+}\addlyrics{Se i -- mnu -- men,
+ se ev -- lo -- ghu -- men,
+ si ef -- ha -- ri -- stu -- men, Ki -- ri -- e,
+ ke δe -- o -- me -- θa su,
+ o Θe -- os i -- mon.
+}
 #+end_src
 
 [[./images/Se-imnoumen.png]]
@@ -1841,7 +1855,7 @@ For Yours is the Kingdom and the power and the glory, of the Father and of the S
 # /(Amen.)/
 [[./images/Amen.png]]
 
-Εἰρήνη πᾶσι.  Peace be with all.
+Εἰρήνη πᾶσι.  Peace be with you all.
 
 # /(And with your spirit.)/
 [[./images/AWYS.png]]
@@ -1919,14 +1933,14 @@ PEOPLE
   \time 3/4
   e2 e4 | e2 c4 | f2 f4 | f2. | d2 d4 | e2 f4 | g2.( g4)
   r4 g | c2. | b2 a4 | g4( a) f | g2. | f2. | e2. |
-}\addlyrics{Εἷς Ἅ -- γι -- ος, εἷς Κύ -- ρι -- ος, Ἰ -- η -- σοῦς Χρι -- στός, εἰς δό -- ξαν Θε -- οῦ Πα -- τρός. Ἀ -- μήν.}
+}\addlyrics{Εἷς Ἅ -- γι -- ος, εἷς Κύ -- ρι -- ος, Ἰ -- η -- σοῦς Χρι -- στός, εἰς δό -- ξαν Θε -- οῦ Πα -- τρός. Ἀ -- μήν.}\addlyrics{Is A -- ghi -- os, is Ki -- ri -- os, I -- i -- sus Hri -- stos, is δo -- ksan Θe -- u Pa -- tros. A -- min.}
 #+end_src
 
 [[./images/Eis-Ayios.png]]
 
 PEOPLE
 
-/(The *Communion Prayers* are recited by all those prepared to receive the holy Mysteries.)/
+/(The *Communion Prayers* are recited by all those prepared to receive the Body and the Blood of the Lord.)/
 
 I believe and confess, Lord, that You are truly the Christ, the Son of the living God, who came into the world to save sinners, of whom I am the first. I also believe that this is truly Your pure Body and that this is truly Your precious Blood. Therefore, I pray to You, have mercy upon me, and forgive my transgressions, voluntary and involuntary, in word and deed, known and unknown. And make me worthy without condemnation to partake of Your pure Mysteries for the forgiveness of sins and for life eternal. Amen.
 
@@ -1964,7 +1978,25 @@ PEOPLE
 }\addlyrics{Praise the Lord from the heav -- ens, praise Him in the high -- est.  Al -- le -- lu -- i -- a.}
 #+end_src
 
-[[./images/Communion-Hymn-en.png]]
+# Music from the old Green Book. [It's terrible, but they want it. :( ]
+#+begin_src lilypond :exports none :results none :file images/Communion-Hymn-en-OGB.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 2/4
+  c4( d | \time 4/4 e4 d c b | c2) e4( f | g4 a f) g | g2 g4 g |
+  a2( b) | c2\fermata g4( a | b4 c b a) | g2 f4( e) | d2gy e4 f | g2 e4 f | e2( d) | c1 |
+  \time 2/4 c4 c | \time 4/4 d4( e f8 g f e) | e4.( d8 c d c4) | c1 |
+}\addlyrics{Praise Praise the Lord, from the heav -- ens, praise Him, praise Him, in the high -- est the high -- est.  Al -- le -- lu -- i -- a.}
+#+end_src
+
+[[./images/Communion-Hymn-en-OGB.png]]
 
 # #+LATEX: \selectlanguage{greek}
 # #+LATEX: Αἰνεῖτε τὸν Κύριον ἐκ τῶν οὐρανῶν. Αἰνεῖτε αὐτὸν ἐν τοῖς ὑψίστοις. Ἀλληλούϊα. Ἀλληλούϊα. Ἀλληλούϊα \\
@@ -2001,7 +2033,25 @@ PEOPLE
 }\addlyrics{Αἰ -- νεῖ -- τε τὸν Κύ -- ρι -- ον ἐκ τῶν οὐ -- ρα -- νῶν. Αἰ -- νεῖ -- τε αὐ -- τὸν ἐν τοῖς ὑ -- ψί -- στοις. Ἀλ -- λη -- λού -- ϊ -- α.}
 #+end_src
 
-[[./images/Communion-Hymn-gr.png]]
+# Music from the old Green Book.
+#+begin_src lilypond :exports none :results none :file images/Communion-Hymn-gr-OGB.png :noweb yes
+<<lpsnippet()>>
+\layout {
+  indent = #0
+  line-width = #120
+  ragged-last = ##t
+}
+\relative c' {
+  \textLengthOn
+  \override Staff.TimeSignature #'stencil = ##f
+  \time 2/4
+  c4( d) | \time 4/4 e4( d c b) | c2 e4( f) | g4( a) f( g) | g2 g4 g |
+  a2 b | c2\fermata g4( a) | b4( c b a) | g2 f4( e) | d2 e4( f) | g2 e4( f) | e2( d) | c1 |
+  \time 2/4 c4 c | \time 4/4 d4( e f8 g f e) | e4.( d8 c d c4) | c1 |
+}\addlyrics{Αἰ -- νεῖ -- τε τὸν Κύ -- ρι -- ον ἐκ τῶν οὐ -- ρα -- νῶν. Αἰ -- νεῖ -- τε αὐ -- τὸν ἐν τοῖς ὑ -- ψί -- στοις. Ἀλ -- λη -- λού -- ϊ -- α.}
+#+end_src
+
+[[./images/Communion-Hymn-gr-OGB.png]]
 
 /(The Priest partakes of the body and the blood of the Lord and he prepares the Holy Communion for the people)/
 
@@ -2067,7 +2117,7 @@ PEOPLE
   g2 g4 g | a4 f e f | g2 g4 g | a4 g g g | a4 g g g | g4( f8 e f4 g) | f2( e ) |
   \time 3/4
   b'2 b4 | b2 g4 | a2. | g8( a g4) f4 | e2.
-}\addlyrics{Εἴ -- δο -- μεν τὸ φῶς τὸ ἀ -- λη -- θι -- νόν, ἐ -- λά -- βο -- μεν Πνεῦ -- μα ἐ -- που -- ρά -- νι -- ον, εὕ -- ρο -- μεν πί -- στιν ἀ -- λη -- θῆ, ἀ -- δι -- αί -- ρε -- τον Τρι -- ά -- δα προ -- σκυ -- νοῦ -- ντες, αὕ -- τη γὰρ ἡ -- μᾶς ἔ -- σω -- σεν.}
+}\addlyrics{Εἴ -- δο -- μεν τὸ φῶς τὸ ἀ -- λη -- θι -- νόν, ἐ -- λά -- βο -- μεν Πνεῦ -- μα ἐ -- που -- ρά -- νι -- ον, εὕ -- ρο -- μεν πί -- στιν ἀ -- λη -- θῆ, ἀ -- δι -- αί -- ρε -- τον Τρι -- ά -- δα προ -- σκυ -- νοῦ -- ντες, αὕ -- τη γὰρ ἡ -- μᾶς ἔ -- σω -- σεν.}\addlyrics{I -- δo -- men to fos to a -- li -- θi -- non, e -- la -- vo -- men Pnev -- ma e -- pu -- ra -- ni -- on, ev -- ro -- men pi -- stin a -- li -- θi, a -- δi -- e -- re -- ton Tri -- a -- δa pro -- ski -- nu -- ndes, af -- ti ghar i -- mas e -- so -- sen.}
 #+end_src
 
 [[./images/Eidomen-to-fws-2.png]]
@@ -2281,7 +2331,7 @@ PEOPLE
 
 PRIEST
 
-May the blessing of the Lord and His mercy come upon you through His divine 	grace and love always, now and forever and to the ages of ages.
+May the blessing of the Lord and His mercy come upon you through His divine grace and love always, now and forever and to the ages of ages.
 
 PEOPLE
 
@@ -2341,7 +2391,7 @@ PEOPLE
   g4 g b( a) |
   g4( f8 e f4 g) |
   f2( e2)\fermata
-}\addlyrics{Τὸν εὐ -- λο -- γοῦν -- τα καὶ ἁ -- γι -- ά -- ζον -- τα ἡ -- μᾶς, Κύ -- ρι -- ε, φύ -- λατ -- τε εἰς πολ -- λὰ ἔ -- τη.}
+}\addlyrics{Τὸν εὐ -- λο -- γοῦν -- τα καὶ ἁ -- γι -- ά -- ζον -- τα ἡ -- μᾶς, Κύ -- ρι -- ε, φύ -- λατ -- τε εἰς πολ -- λὰ ἔ -- τη.}\addlyrics{Ton ev -- lo -- ghun -- da ke a -- ghi -- a -- zon -- da i -- mas, Ki -- ri -- e, fi -- lat -- te is pol -- la e -- ti.}
 #+end_src
 
 [[./images/Ton-Eulogounta-old-green-book.png]]
@@ -2353,7 +2403,7 @@ PEOPLE
 
 PRIEST
 
-Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy 	on us and save us. 
+Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy on us and save us. 
 
 PEOPLE
 
