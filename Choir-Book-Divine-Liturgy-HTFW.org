@@ -1561,7 +1561,11 @@ PEOPLE
   a'2 a4( c) | bes4( a g2 f8 e g f) e2 |
   d4 d d e | f4 g a a | a1 |
   a4 a d e | f2( e4 d c4 d) bes d |
-  a2 f4( g) | a4.( g8) f4( e8 d) | d1
+  % End on the base. (What we should do.)
+  %%a2 f4( g) | a4.( g8) f4( e8 d) | d1
+  % End an octave up, in a weird non-modal way
+  % unknown to chant. (What Father/Greg wants.)
+  a2 f4( g) | a2 cis2 | d1
 }\addlyrics{We praise You, O Lord, we bless You.
    Un -- to You O Lord we give our thanks,
    with our fer -- vent pra -- yer to You
