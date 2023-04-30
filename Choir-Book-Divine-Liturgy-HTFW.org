@@ -1554,7 +1554,7 @@ PEOPLE
 }
 \relative c'' {
   \textLengthOn
-  \override Staff.TimeSignature #'stencil = ##f
+  \omit Staff.TimeSignature
   \key d \minor
   \time 4/4
   a2( g4 bes) | a4( g f e) | d2. d4 |
@@ -1564,7 +1564,7 @@ PEOPLE
   % End on the base. (What we should do.)
   %%a2 f4( g) | a4.( g8) f4( e8 d) | d1
   % End an octave up, in a weird non-modal way
-  % unknown to chant. (What Father/Greg wants.)
+  % unknown to chant. (What Father & Greg want.)
   a2 f4( g) | a2 cis2 | d1
 }\addlyrics{We praise You, O Lord, we bless You.
    Un -- to You O Lord we give our thanks,
